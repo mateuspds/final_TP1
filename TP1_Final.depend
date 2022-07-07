@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1657200249 source:/media/mateus/One Touch/TP1/TP1_Final/main.cpp
+	<iostream>
+
+1657217743 source:/media/mateus/One Touch/TP1/TP1_Final/src/dominioUsuario.cpp
+	"dominioUsuario.h"
+
+1657217680 /media/mateus/One Touch/TP1/TP1_Final/include/dominioUsuario.h
+	<string>
+
