@@ -81,4 +81,36 @@ inline string Descricao::getDes()const{
 return des;
 }
 
+//classe código
+class Codigo {
+    private:
+        string nomeCodigo;
+        void validar(string);
+    public:
+        void setValor(string);
+        string getValor() const;
+};
+
+inline string Codigo::getValor() const{
+    return nomeCodigo;
+}
+//classe cidade
+class Cidade {
+    private:
+        string nomeCidade;
+        void validar(string);
+    public:
+        void setValor(string);
+        string getValor() const;
+};
+
+inline string Cidade::getValor() const{
+    return nomeCidade;
+}
+
+
+
+
+
+
 #endif // DOMINIOS_H

@@ -1,11 +1,11 @@
-#include "dominios.h"
+// #include "dominios.h"
 
-dominios::dominios()
-{
-    //ctor
-}
+// dominios::dominios()
+// {
+//     //ctor
+// }
 
-dominios::~dominios()
-{
-    //dtor
-}
+// dominios::~dominios()
+// {
+//     //dtor
+// }

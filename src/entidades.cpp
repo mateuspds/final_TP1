@@ -1,11 +1,11 @@
-#include "entidades.h"
+// #include "entidades.h"
 
-entidades::entidades()
-{
-    //ctor
-}
+// entidades::entidades()
+// {
+//     //ctor
+// }
 
-entidades::~entidades()
-{
-    //dtor
-}
+// entidades::~entidades()
+// {
+//     //dtor
+// }
