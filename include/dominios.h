@@ -1,5 +1,7 @@
-#ifndef DOMINIOUSUARIO_H
-#define DOMINIOUSUARIO_H
+#ifndef DOMINIOS_H
+#define DOMINIOS_H
+
+
 #include <string>
 using namespace std;
 ///classe referente a Nome
@@ -79,6 +81,4 @@ inline string Descricao::getDes()const{
 return des;
 }
 
-
-
-#endif // DOMINIOUSUARIO_H
+#endif // DOMINIOS_H

@@ -1,7 +1,6 @@
-#ifndef USUARIO_H
-#define USUARIO_H
-#include <string>
-#include <dominioUsuario.h>
+#ifndef ENTIDADES_H
+#define ENTIDADES_H
+#include<dominios.h>
 
 using namespace std;
 ///Entidade responsavel pelas classes que compoem o usuario, como Nome,Email,Senha,Idioma,Data,Descricao....
@@ -67,5 +66,4 @@ inline Idioma Usuario::getIdioma()const{
     return idioma;
 }
 
-
-#endif // USUARIO_H
+#endif // ENTIDADES_H

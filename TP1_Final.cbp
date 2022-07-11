@@ -34,11 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Usuario.h" />
-		<Unit filename="include/dominioUsuario.h" />
+		<Unit filename="include/dominios.h" />
+		<Unit filename="include/entidades.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Usuario.cpp" />
-		<Unit filename="src/dominioUsuario.cpp" />
+		<Unit filename="src/dominios.cpp" />
+		<Unit filename="src/entidades.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
