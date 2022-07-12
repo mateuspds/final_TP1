@@ -107,6 +107,33 @@ class Cidade {
 inline string Cidade::getValor() const{
     return nomeCidade;
 }
+//classe pais
+class Pais {
+    private:
+        string nomePais;
+        void validar(string);
+    public:
+        void setValor(string);
+        string getValor() const;
+};
+
+inline string Pais::getValor() const{
+    return nomePais;
+}
+
+//classe nota
+class Nota {
+    private:
+        string nomeNota;
+        void validar(string);
+    public:
+        void setValor(string);
+        string getValor() const;
+};
+
+inline string Nota::getValor() const{
+    return nomeNota;
+}
 
 
 
