@@ -12,7 +12,10 @@ int main()
     cidade.setValor("Paris");
 
     Idioma idioma;
-    idioma.setLingua("Portuguessss");
+    idioma.setLingua("Portugues");
+
+    Nota nota;
+    nota.setValor(1);
 
     return 0;
 

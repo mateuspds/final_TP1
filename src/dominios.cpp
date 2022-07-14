@@ -5,10 +5,10 @@
  #include <cstring>
  using namespace std;
 
+
+//implementação da validação de Pais...
 void Pais::validar(string nomedoPais){
-
     int numpais = 0;
-
     try{
     std::list<string> mypaises = {"Estados Unidos", "Brasil", "China","Coreia do Sul", "Emirados", "Franca", "India", "Japao", "Malasia",
     "Reino Unido", "Tailandia", "Turquia"};
@@ -83,4 +83,21 @@ void Idioma::validar( string lingue){
 void Idioma::setLingua(string idioma){
     validar(idioma);
     this->lingua = idioma;
+}
+
+//implementação da validação de nota
+void Nota::validar(int num){
+    try{
+        if(num >10 || num <0)
+            throw std::invalid_argument("tipo de argumento invalido em Nota");
+    }
+    catch(...){
+        throw std::invalid_argument("tipo de argumento invalido em Nota");
+    }
+}
+
+
+void Nota::setValor(int numero){
+    validar(numero);
+    this->nomeNota = numero;
 }

@@ -124,14 +124,14 @@ inline string Pais::getValor() const{
 //classe nota
 class Nota {
     private:
-        string nomeNota;
-        void validar(string);
+        int nomeNota;
+        void validar(int);
     public:
-        void setValor(string);
-        string getValor() const;
+        void setValor(int);
+        int getValor() const;
 };
 
-inline string Nota::getValor() const{
+inline int Nota::getValor() const{
     return nomeNota;
 }
 
