@@ -271,6 +271,7 @@ void Data::setData_nome(string datinha){
 
 void Codigo::validar(string input){
 
+
 }
 
 void Codigo::setValor(string codigo){
@@ -278,7 +279,9 @@ void Codigo::setValor(string codigo){
     this->nomeCodigo=codigo;
 }
 
-void Email::validar(string email){}
+void Email::validar(string email){
+
+}
 
 void Email::setNomeemsil(string email){
     validar(email);
