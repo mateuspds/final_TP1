@@ -19,9 +19,9 @@ void Pais::validar(string nomedoPais){
         }
     }
    if(numpais <= 0)
-        throw std::invalid_argument("Argumento invalido em Pais.");
-}catch(...){
-    throw std::invalid_argument("tipo de argumento invalido Pais");
+        throw std::invalid_argument("Argumento invalido");
+}catch(int a){
+    throw std::invalid_argument("Argumento invalido");
 }
 
 
@@ -48,10 +48,10 @@ void Cidade::validar(string nome){
         }
     }
    if(numCidade <= 0)
-        throw std::invalid_argument("Argumento invalido em Cidade.");
+        throw std::invalid_argument("Argumento invalido");
     }
-    catch(...){
-        throw std::invalid_argument("tipo de argumento invalido em Cidade");
+    catch(int n){
+        throw std::invalid_argument("Argumento invalido");
     }
 }
 void Cidade::setValor(string nome){
@@ -74,9 +74,9 @@ void Idioma::validar( string lingue){
             }
         }
         if(numerocidade <= 0)
-            throw std::invalid_argument("tipo de argumento invalido em Idioma");
-        }catch(...){
-            throw std::invalid_argument("tipo de argumento invalido em Idioma");
+            throw std::invalid_argument("Argumento invalido");
+        }catch(int nw){
+            throw std::invalid_argument("Argumento invalido");
         }
 }
 
@@ -89,10 +89,10 @@ void Idioma::setLingua(string idioma){
 void Nota::validar(int num){
     try{
         if(num >10 || num <0)
-            throw std::invalid_argument("tipo de argumento invalido em Nota");
+            throw std::invalid_argument("Argumento invalido");
     }
-    catch(...){
-        throw std::invalid_argument("tipo de argumento invalido em Nota");
+    catch(int mtya){
+        throw std::invalid_argument("Argumento invalido");
     }
 }
 
@@ -100,4 +100,187 @@ void Nota::validar(int num){
 void Nota::setValor(int numero){
     validar(numero);
     this->nomeNota = numero;
+}
+//implementação da validação de descricao
+
+void Descricao::validar(string descri){
+try{
+   int n = descri.length();
+    if(n >40 || n<=0)
+        throw invalid_argument("Argumento invalido");
+     for (int x = 0; x < n; x++) {
+        if(x<n){
+            if(descri[x] == '.'&& descri[++x]== '.'){
+            throw invalid_argument("Argumento invalido");
+            break;
+}
+       if(descri[x] == ','&& descri[++x]== ','){
+            throw invalid_argument("Argumento invalido");
+            break;
+}
+       if(descri[x] == ';'&& descri[++x]== ';'){
+            throw invalid_argument("Argumento invalido");
+            break;
+}
+       if(descri[x] == ':'&& descri[++x]== ':'){
+            throw invalid_argument("Argumento invalido");
+            break;
+}
+       if(descri[x] == '?'&& descri[++x]== '?'){
+            throw invalid_argument("Argumento invalido");
+            break;
+}
+       if(descri[x] == '!'&& descri[++x]== '!'){
+            throw invalid_argument("Argumento invalido");
+            break;
+}
+       if(descri[x] == '-'&& descri[++x]== '-'){
+            throw invalid_argument("Argumento invalido");
+            break;
+}
+        if(descri[x] == ' '&& descri[++x]== ' '){
+            throw invalid_argument("Argumento invalido");
+            break;
+        }
+    }
+}
+
+}catch(int a){
+   throw invalid_argument("Argumento invalido");
+}
+
+}
+
+void Descricao::setDes(string descri){
+    validar(descri);
+    this->des=descri;
+}
+
+//implementação de nome
+
+void Nome::validar(string nome){
+        int x=0;
+        int n= nome.length();
+        if(n>30){
+            throw invalid_argument("Argumento invalido");
+        }
+        for(int i=0;i<n;i++){
+            if(nome[0]<'A' && nome[0]>'Z'){
+                throw invalid_argument("Argumento invalido");
+        }
+            if(i>0){
+                if(nome[i]!=' '){
+                    if(nome[i]<'a'|| nome[i]>'z'){
+                        throw invalid_argument("Argumento invalido");
+            }
+
+              }else{
+                if(nome[++i]==' '){
+                    throw invalid_argument("Argumento invalido");
+                }else{
+                    if(nome[i]<'A' || nome[i]>'Z'){
+                        throw invalid_argument("Argumento invalido");
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+void Nome::setNome(string nome){
+    validar(nome);
+    this->nome=nome;
+}
+
+//validação de senha
+void Senha::validar(string senha){
+
+ int tamstring = senha.length();
+    int letra=0;
+    int digito = 0;
+    int caracterEspecial = 0;
+    for(int i=0;i<tamstring;i++){
+        if(senha[i]>= 48 && senha[i]<=57){
+            digito = ++digito;
+        }if(senha[i]>= 'a'&& senha[i]<='z'){
+            letra = ++letra;
+        } if(senha[i]>= 'A'&& senha[i]<='Z'){
+             letra = ++letra;
+        }if(senha[i]>=33 && senha[i]<=38){
+            caracterEspecial=++caracterEspecial;
+        }
+
+
+    }
+     if(letra <1 || digito<1 || caracterEspecial <1){
+        throw invalid_argument("argumento invalido");
+        }
+
+
+}
+
+
+void Senha::setNome_senha(string senha){
+    validar(senha);
+    this->nome_senha=senha;
+}
+
+//validação de Data
+void Data::validar(string data){
+    int tamanhoData= data.length();
+    char mesi[3];
+    mesi[0]=data[3];
+    mesi[1]=data[4];
+    mesi[2]=data[5];
+    string mes=mesi;
+
+    if(tamanhoData != 6){
+        throw invalid_argument("argumento invalido");
+    }else{
+            if(data[0] <48 ||data[0]>51){
+                throw invalid_argument("argumento invalido");
+            }
+            if(data[0]>50 && data[1]>49){
+                throw invalid_argument("argumento invalido");
+            }
+
+            if(data[1] <48 ||data[1]>57){
+                throw invalid_argument("argumento invalido");
+            }
+            if(data[2] != '/'){
+                throw invalid_argument("argumento invalido");
+            }
+            if(mes != "Jan" && mes != "Fev" && mes != "Mar" && mes != "Abr" && mes != "Mai" && mes != "Jun" && mes != "Jul" && mes != "Ago"&& mes != "Set" && mes != "Out" && mes != "Nov" &&mes != "Dez"){
+                throw invalid_argument("argumento invalido");
+
+            }
+
+
+    }
+
+
+}
+
+void Data::setData_nome(string datinha){
+    validar(datinha);
+    this->data_nome=datinha;
+}
+
+//validação de codigo
+
+void Codigo::validar(string input){
+
+}
+
+void Codigo::setValor(string codigo){
+    validar(codigo);
+    this->nomeCodigo=codigo;
+}
+
+void Email::validar(string email){}
+
+void Email::setNomeemsil(string email){
+    validar(email);
+    this->nome_email=email;
 }

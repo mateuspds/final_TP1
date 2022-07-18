@@ -15,7 +15,23 @@ int main()
     idioma.setLingua("Portugues");
 
     Nota nota;
-    nota.setValor(1);
+    nota.setValor(10);
+
+    Descricao descri;
+    descri.setDes("asdf");
+
+    Nome nome;
+    nome.setNome("Mateus Pereira");
+
+    Senha senha;
+    senha.setNome_senha("r!2");
+
+    Data data;
+    data.setData_nome("03/Fev");
+
+    Codigo codigo;
+    codigo.setValor("7992739871145");
+
 
     return 0;
 
