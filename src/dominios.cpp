@@ -5,6 +5,31 @@
  #include <cstring>
  using namespace std;
 
+//function fora
+bool checkLuhn(const string& cardNo)
+{
+    int nDigits = cardNo.length();
+
+    int nSum = 0, isSecond = false;
+    for (int i = nDigits - 1; i >= 0; i--) {
+
+        int d = cardNo[i] - '0';
+
+        if (isSecond == true)
+            d = d * 2;
+
+        // We add two digits to handle
+        // cases that make two digits after
+        // doubling
+        nSum += d / 10;
+        nSum += d % 10;
+
+        isSecond = !isSecond;
+    }
+    return (nSum % 10 == 0);
+}
+//fora
+
 
 //implementação da validação de Pais...
 void Pais::validar(string nomedoPais){
@@ -248,8 +273,17 @@ void Data::setData_nome(string datinha){
 
 //validação de codigo
 
-void Codigo::validar(string input){
-
+void Codigo::validar(string codigo){
+int tamanho = codigo.length();
+for(int i=0;i<tamanho;i++){
+    if(codigo[i]<48 || codigo[i]>57){
+        throw invalid_argument("argumento invalido");
+    }
+}
+if(checkLuhn(codigo)){}
+else{
+ throw invalid_argument("argumento invalido");
+}
 
 }
 
@@ -259,6 +293,23 @@ void Codigo::setValor(string codigo){
 }
 
 void Email::validar(string email){
+int tamanho = email.length();
+    if(email[0]=='.')
+        throw invalid_argument("argumento invalido");
+    for(int i=0;i<tamanho;i++){
+        if(email[i]=='@'){
+            if(i>64)
+                throw invalid_argument("argumento invalido");
+        }
+        if(email[i] >32 && email[i] <48 ){
+            int n=++i;
+            if(email[n] >48 && email[n] < 59 ||email[n] >64 && email[n] < 91 || email[n] >60 && email[n] < 123){
+
+            }else{
+                throw invalid_argument("argumento invalido");
+            }
+        }
+    }
 
 }
 
