@@ -1,40 +1,12 @@
 #include <iostream>
 #include "dominios.h"
 #include "tuDominios.h"
+#include "TuEntidade.h"
 using namespace std;
 
 int main()
 {
-
-    Pais nomepais;
-    nomepais.setValor("Brasil");
-
-    Cidade cidade;
-    cidade.setValor("Paris");
-
-    Idioma idioma;
-    idioma.setLingua("Portugues");
-
-    Nota nota;
-    nota.setValor(10);
-
-    Descricao descri;
-    descri.setDes("asdf");
-
-    Nome nome;
-    nome.setNome("Mateus Pereira");
-
-    Senha senha;
-    senha.setNome_senha("r!2");
-
-    Data data;
-    data.setData_nome("03/Fev");
-
-    Codigo codigo;
-    codigo.setValor("79927398713");
-
-    Email email;
-    email.setNomeemsil("mateus.silva09082000@gmail.com");
+//matricula: 190035145
 
 
 
@@ -132,6 +104,39 @@ int main()
         case TUCodigo::FALHA  : cout << "FALHA   - Codigo" << endl;
                                 break;
     }
+
+
+cout << "--------------------------------------------------------------------" << endl;
+    //teste de entidades
+
+       TUUsuario testeB;
+
+    switch(testeB.run()){
+        case TUUsuario::SUCESSO: cout << "SUCESSO - Usuario" << endl;
+                                break;
+        case TUUsuario::FALHA  : cout << "FALHA   - Usuario" << endl;
+                                break;
+    }
+
+
+      TUHospedagem testehosp;
+
+    switch(testehosp.run()){
+        case TUHospedagem::SUCESSO: cout << "SUCESSO - Hospedagem" << endl;
+                                break;
+        case TUHospedagem::FALHA  : cout << "FALHA   - Hospedagem" << endl;
+                                break;
+    }
+
+     TUAvalicao testeavali;
+
+    switch(testeavali.run()){
+        case TUAvalicao::SUCESSO: cout << "SUCESSO - Avaliação" << endl;
+                                break;
+        case TUAvalicao::FALHA  : cout << "FALHA   - Avaliação" << endl;
+                                break;
+    }
+
 
     return 0;
 

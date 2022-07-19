@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1658203390 source:/media/mateus/One Touch/TP1/TP1_Final/main.cpp
+1658208667 source:/media/mateus/One Touch/TP1/TP1_Final/main.cpp
 	<iostream>
 	"dominios.h"
 	"tuDominios.h"
+	"TuEntidade.h"
 
 1657217743 source:/media/mateus/One Touch/TP1/TP1_Final/src/dominioUsuario.cpp
 	"dominioUsuario.h"
@@ -38,11 +39,20 @@
 	<iostream>
 	<cstring>
 
-1658199880 source:/media/mateus/One Touch/TP1/TP1_Final/src/tuDominios.cpp
+1658203424 source:/media/mateus/One Touch/TP1/TP1_Final/src/tuDominios.cpp
 	"tuDominios.h"
 	<stdexcept>
 
 1658203390 /media/mateus/One Touch/TP1/TP1_Final/include/tuDominios.h
 	"dominios.h"
 	<cstring>
+
+1658208865 source:/media/mateus/One Touch/TP1/TP1_Final/src/TuEntidade.cpp
+	"TuEntidade.h"
+
+1658208667 /media/mateus/One Touch/TP1/TP1_Final/include/TuEntidade.h
+	"entidades.h"
+
+1657592243 /media/mateus/One Touch/TP1/TP1_Final/include/entidades.h
+	<dominios.h>
 

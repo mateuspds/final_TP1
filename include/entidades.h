@@ -2,6 +2,9 @@
 #define ENTIDADES_H
 #include<dominios.h>
 
+
+//matricula: 190035145
+
 using namespace std;
 ///Entidade responsavel pelas classes que compoem o usuario, como Nome,Email,Senha,Idioma,Data,Descricao....
 class Usuario{
