@@ -9,7 +9,6 @@
 //implementação da validação de Pais...
 void Pais::validar(string nomedoPais){
     int numpais = 0;
-    try{
     std::list<string> mypaises = {"Estados Unidos", "Brasil", "China","Coreia do Sul", "Emirados", "Franca", "India", "Japao", "Malasia",
     "Reino Unido", "Tailandia", "Turquia"};
     for(string x : mypaises){
@@ -20,9 +19,6 @@ void Pais::validar(string nomedoPais){
     }
    if(numpais <= 0)
         throw std::invalid_argument("Argumento invalido");
-}catch(int a){
-    throw std::invalid_argument("Argumento invalido");
-}
 
 
 }
@@ -37,7 +33,6 @@ void Cidade::validar(string nome){
 
     int numCidade = 0;
 
-    try{
     std::list<string> mypaises = {"Antalya", "Bangkok", "Delhi","Dubai", "Hong Hong", "Londres", "Macau", "Mumbai", "Paris",
     "Rio de Janeiro", "Sao Paulo", "Seul", "Istambul","Kuala Lampur", "Nova Iorque","Osaka",
      "Phuket", "Shenzhen", "Toquio"};
@@ -49,10 +44,6 @@ void Cidade::validar(string nome){
     }
    if(numCidade <= 0)
         throw std::invalid_argument("Argumento invalido");
-    }
-    catch(int n){
-        throw std::invalid_argument("Argumento invalido");
-    }
 }
 void Cidade::setValor(string nome){
     validar(nome);
@@ -66,7 +57,6 @@ void Idioma::validar( string lingue){
     std::list<string> myidiomas = {"Ingles","Chines","Mandarim","Hindi","Espanhol",
     "Frances","Arabe","Bengali","Russo","Portugues","Indonesio"};
 
-    try{
         for(string x : myidiomas){
             if(lingue == x){
                 numerocidade = ++numerocidade;
@@ -75,9 +65,6 @@ void Idioma::validar( string lingue){
         }
         if(numerocidade <= 0)
             throw std::invalid_argument("Argumento invalido");
-        }catch(int nw){
-            throw std::invalid_argument("Argumento invalido");
-        }
 }
 
 void Idioma::setLingua(string idioma){
@@ -87,13 +74,9 @@ void Idioma::setLingua(string idioma){
 
 //implementação da validação de nota
 void Nota::validar(int num){
-    try{
         if(num >10 || num <0)
             throw std::invalid_argument("Argumento invalido");
-    }
-    catch(int mtya){
-        throw std::invalid_argument("Argumento invalido");
-    }
+
 }
 
 
@@ -104,7 +87,6 @@ void Nota::setValor(int numero){
 //implementação da validação de descricao
 
 void Descricao::validar(string descri){
-try{
    int n = descri.length();
     if(n >40 || n<=0)
         throw invalid_argument("Argumento invalido");
@@ -145,9 +127,6 @@ try{
     }
 }
 
-}catch(int a){
-   throw invalid_argument("Argumento invalido");
-}
 
 }
 
