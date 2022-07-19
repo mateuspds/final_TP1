@@ -4,12 +4,12 @@
  #include <iostream>
  #include <cstring>
 
- //matricula: 190035145
+ ///matricula: 190035145
 
  using namespace std;
 
-//Função CheckLuhn é para fazer a verificação do algoritmo Luhn,  também conhecido como algoritmo de "Modulo 10" que é muito utilizado para fazer verificações de códigos de cartões de crédito
-//Ele faz a soma dos vários números dentro dos códigos para ver se eles estão corretos na soma total.
+///Função CheckLuhn é para fazer a verificação do algoritmo Luhn,  também conhecido como algoritmo de "Modulo 10" que é muito utilizado para fazer verificações de códigos de cartões de crédito
+///Ele faz a soma dos vários números dentro dos códigos para ver se eles estão corretos na soma total.
 bool checkLuhn(const string& cardNo)
 {
     int nDigits = cardNo.length();
@@ -22,9 +22,9 @@ bool checkLuhn(const string& cardNo)
         if (isSecond == true)
             d = d * 2;
 
-        // We add two digits to handle
-        // cases that make two digits after
-        // doubling
+        /// We add two digits to handle
+        /// cases that make two digits after
+        /// doubling
         nSum += d / 10;
         nSum += d % 10;
 
@@ -33,7 +33,7 @@ bool checkLuhn(const string& cardNo)
     return (nSum % 10 == 0);
 }
 
-//Função Pais::validar recebe a string nomedoPais e define para cada um dos paises listados na lista abaixo um valor, definindo cada um desses paises um número e validando esse número como o valor daquele pais.
+///Função Pais::validar recebe a string nomedoPais e define para cada um dos paises listados na lista abaixo um valor, definindo cada um desses paises um número e validando esse número como o valor daquele pais.
 void Pais::validar(string nomedoPais){
     int numpais = 0;
     std::list<string> mypaises = {"Estados Unidos", "Brasil", "China","Coreia do Sul", "Emirados", "Franca", "India", "Japao", "Malasia",
@@ -47,13 +47,13 @@ void Pais::validar(string nomedoPais){
    if(numpais <= 0)
         throw std::invalid_argument("Argumento invalido");
 }
-//Armazena o valor do nome do Pais e utiliza o this-> para referenciar o nome como nomePais.
+///Armazena o valor do nome do Pais e utiliza o this-> para referenciar o nome como nomePais.
 void Pais::setValor(string nome){
     validar(nome);
     this->nomePais = nome;
 }
 
-//Função Cidade::validar recebe a string nome e define para cada uma das cidades listadas na lista abaixo um valor, definindo cada uma dessas cidades um número e validando esse número como o valor daquela cidade.
+///Função Cidade::validar recebe a string nome e define para cada uma das cidades listadas na lista abaixo um valor, definindo cada uma dessas cidades um número e validando esse número como o valor daquela cidade.
 void Cidade::validar(string nome){
 
     int numCidade = 0;
@@ -70,13 +70,13 @@ void Cidade::validar(string nome){
    if(numCidade <= 0)
         throw std::invalid_argument("Argumento invalido");
 }
-//Armazena o valor do nome da Cidade e utiliza o this-> para referenciar o nome como nomeCidade.
+///Armazena o valor do nome da Cidade e utiliza o this-> para referenciar o nome como nomeCidade.
 void Cidade::setValor(string nome){
     validar(nome);
     this->nomeCidade = nome;
 }
 
-//Função Idioma::validar recebe a string lingue e define para cada um dos idiomas listadas na lista abaixo um valor, definindo cada um desses idiomas um número e validando esse número como o valor daquele idioma.
+///Função Idioma::validar recebe a string lingue e define para cada um dos idiomas listadas na lista abaixo um valor, definindo cada um desses idiomas um número e validando esse número como o valor daquele idioma.
 void Idioma::validar( string lingue){
     int numerocidade = 0;
     std::list<string> myidiomas = {"Ingles","Chines","Mandarim","Hindi","Espanhol",
@@ -91,26 +91,26 @@ void Idioma::validar( string lingue){
         if(numerocidade <= 0)
             throw std::invalid_argument("Argumento invalido");
 }
-//Armazena o valor do idioma e utiliza o this-> para referenciar o idioma como lingua.
+///Armazena o valor do idioma e utiliza o this-> para referenciar o idioma como lingua.
 void Idioma::setLingua(string idioma){
     validar(idioma);
     this->lingua = idioma;
 }
 
-//Função Nota::validar recebe um int num e define que se o valor de num for maior que 10 ou menor que 0 um erro vai aparecer, mostrando que aquele argumento é invalido.
+///Função Nota::validar recebe um int num e define que se o valor de num for maior que 10 ou menor que 0 um erro vai aparecer, mostrando que aquele argumento é invalido.
 void Nota::validar(int num){
         if(num >10 || num <0)
             throw std::invalid_argument("Argumento invalido");
 
 }
-//Armazena o valor do int numero e utiliza o this-> para referenciar o numero como nomeNota.
+///Armazena o valor do int numero e utiliza o this-> para referenciar o numero como nomeNota.
 void Nota::setValor(int numero){
     validar(numero);
     this->nomeNota = numero;
 }
 
-//Função Descricao::validar recebe um string descri e define que se o valor de descri for maior que 40 ou menor que 0 um erro vai aparecer, mostrando que aquele argumento é invalido.
-//Além disso, verifica dentro de um loop se existe caracteres inapropriados como . , ; : ? ! - 
+///Função Descricao::validar recebe um string descri e define que se o valor de descri for maior que 40 ou menor que 0 um erro vai aparecer, mostrando que aquele argumento é invalido.
+///Além disso, verifica dentro de um loop se existe caracteres inapropriados como . , ; : ? ! - 
 void Descricao::validar(string descri){
    int n = descri.length();
     if(n >40 || n<=0)
@@ -153,14 +153,14 @@ void Descricao::validar(string descri){
 }
 
 }
-//Armazena o valor do string descri e utiliza o this-> para referenciar o descri como des.
+///Armazena o valor do string descri e utiliza o this-> para referenciar o descri como des.
 void Descricao::setDes(string descri){
     validar(descri);
     this->des=descri;
 }
 
-//Função Nome::validar recebe um string nome e define que se o valor de nome for maior que 30 um erro vai aparecer, mostrando que aquele argumento é invalido.
-// Além disso, há algumas outras validações que verificam se as letras adicionadas no nome fazem parte do alfabeto conhecido como ASCII.
+///Função Nome::validar recebe um string nome e define que se o valor de nome for maior que 30 um erro vai aparecer, mostrando que aquele argumento é invalido.
+/// Além disso, há algumas outras validações que verificam se as letras adicionadas no nome fazem parte do alfabeto conhecido como ASCII.
 void Nome::validar(string nome){
         int x=0;
         int n= nome.length();
@@ -190,14 +190,14 @@ void Nome::validar(string nome){
         }
     }
 }
-//Armazena o valor do string nome e utiliza o this-> para referenciar o nome como nome.
+///Armazena o valor do string nome e utiliza o this-> para referenciar o nome como nome.
 void Nome::setNome(string nome){
     validar(nome);
     this->nome=nome;
 }
 
-//Função Senha::validar recebe um string senha e verifica o tamanho dos vetores senha, cada vez que um caracter é adicionado na senha o valor +1 é adicionado ao contador e no fim disso tudo
-//Verificamos se o as variaveis letra, digito e caracterEspeciais são menores que 1, se alguma delas for menor que um, um erro é lançado.
+///Função Senha::validar recebe um string senha e verifica o tamanho dos vetores senha, cada vez que um caracter é adicionado na senha o valor +1 é adicionado ao contador e no fim disso tudo
+///Verificamos se o as variaveis letra, digito e caracterEspeciais são menores que 1, se alguma delas for menor que um, um erro é lançado.
 void Senha::validar(string senha){
 
  int tamstring = senha.length();
@@ -224,14 +224,14 @@ void Senha::validar(string senha){
 
 }
 
-//Armazena o valor do string senha e utiliza o this-> para referenciar o senha como nome_senha.
+///Armazena o valor do string senha e utiliza o this-> para referenciar o senha como nome_senha.
 void Senha::setNome_senha(string senha){
     validar(senha);
     this->nome_senha=senha;
 }
 
-//Função Data::validar recebe um string data, define o vetor mesi[3] e posiciona um vetor em cada umas das posições desse vetor. Começa as verificações do tamanho da data, se por acaso for diferente de 6
-// um erro é lançado, se for igual a 6, uma verificação é feita com o valor de cada um dos vetores posicionados nas posições do vetor Mesi, assim validando a data.
+///Função Data::validar recebe um string data, define o vetor mesi[3] e posiciona um vetor em cada umas das posições desse vetor. Começa as verificações do tamanho da data, se por acaso for diferente de 6
+/// um erro é lançado, se for igual a 6, uma verificação é feita com o valor de cada um dos vetores posicionados nas posições do vetor Mesi, assim validando a data.
 void Data::validar(string data){
     int tamanhoData= data.length();
     char mesi[3];
@@ -266,14 +266,14 @@ void Data::validar(string data){
 
 
 }
-//Armazena o valor do string datinha e utiliza o this-> para referenciar o datinha como data_nome.
+///Armazena o valor do string datinha e utiliza o this-> para referenciar o datinha como data_nome.
 void Data::setData_nome(string datinha){
     validar(datinha);
     this->data_nome=datinha;
 }
 
-//Função Codigo::validar recebe um string codigo, salva o tamanho do codigo e faz uma verificação em loop dentro do tamanho do codigo, verificando se o tamanho do vetor é menor que 48 ou maior que 57.
-//Além disso, chama a função checkLuhn para verificar se o código é valido ou não
+///Função Codigo::validar recebe um string codigo, salva o tamanho do codigo e faz uma verificação em loop dentro do tamanho do codigo, verificando se o tamanho do vetor é menor que 48 ou maior que 57.
+///Além disso, chama a função checkLuhn para verificar se o código é valido ou não
 void Codigo::validar(string codigo){
 int tamanho = codigo.length();
 for(int i=0;i<tamanho;i++){
@@ -287,14 +287,14 @@ else{
 }
 
 }
-//Armazena o valor do string codigo e utiliza o this-> para referenciar o codigo como nome_Codigo.
+///Armazena o valor do string codigo e utiliza o this-> para referenciar o codigo como nome_Codigo.
 void Codigo::setValor(string codigo){
     validar(codigo);
     this->nomeCodigo=codigo;
 }
 
-//Função Email::validar recebe um string email, salva o tamanho do email e faz uma verificação sobre o caracter . se ele for encontrado na primeira posição do vetor um erro é lançado, depois disso
-//Uma nova verificação é feita, tentando definir o tamanho maximo antes do @ e depois tentando identificar o tamanho total do email.
+///Função Email::validar recebe um string email, salva o tamanho do email e faz uma verificação sobre o caracter . se ele for encontrado na primeira posição do vetor um erro é lançado, depois disso
+///Uma nova verificação é feita, tentando definir o tamanho maximo antes do @ e depois tentando identificar o tamanho total do email.
 void Email::validar(string email){
 int tamanho = email.length();
     if(email[0]=='.')
@@ -316,7 +316,7 @@ int tamanho = email.length();
 
 }
 
-//Armazena o valor do email codigo e utiliza o this-> para referenciar o email como nome_email.
+///Armazena o valor do email codigo e utiliza o this-> para referenciar o email como nome_email.
 void Email::setNomeemsil(string email){
     validar(email);
     this->nome_email=email;

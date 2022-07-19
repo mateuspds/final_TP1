@@ -85,7 +85,7 @@ inline string Descricao::getDes()const{
 return des;
 }
 
-//Classe que identifica e armazena o Código.
+///Classe que identifica e armazena o Código.
 class Codigo {
     private:
         string nomeCodigo;
@@ -98,7 +98,7 @@ class Codigo {
 inline string Codigo::getValor() const{
     return nomeCodigo;
 }
-//Classe que identifica e armazena a Cidade.
+///Classe que identifica e armazena a Cidade.
 class Cidade {
     private:
         string nomeCidade;
@@ -111,7 +111,7 @@ class Cidade {
 inline string Cidade::getValor() const{
     return nomeCidade;
 }
-//Classe que identifica e armazena o Pais.
+///Classe que identifica e armazena o Pais.
 class Pais {
     private:
         string nomePais;
@@ -125,7 +125,7 @@ inline string Pais::getValor() const{
     return nomePais;
 }
 
-//Classe que identifica e armazena a Nota.
+///Classe que identifica e armazena a Nota.
 class Nota {
     private:
         int nomeNota;

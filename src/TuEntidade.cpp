@@ -1,21 +1,21 @@
 #include "TuEntidade.h"
 
-//matricula: 190035145
+//matricula: 160142334
 
 
-//A função TUUsuario::setUp define o novo usuario e estado como SUCESSO.
+///A função TUUsuario::setUp define o novo usuario e estado como SUCESSO.
 void TUUsuario::setUp(){
     usuario = new Usuario();
     estado = SUCESSO;
 }
 
-//A função TUUsuario::tearDown deleta o usuario salvo.
+///A função TUUsuario::tearDown deleta o usuario salvo.
 void TUUsuario::tearDown(){
     delete usuario;
 }
 
-//A função TUUsuario::testarCenarioSucesso faz uma verificação em todas as classes que fazem parte de Usuario e verifica se os valores recebidos são validos
-//Se os valores invalidos, retorna o estado como FALHA.
+///A função TUUsuario::testarCenarioSucesso faz uma verificação em todas as classes que fazem parte de Usuario e verifica se os valores recebidos são validos
+///Se os valores invalidos, retorna o estado como FALHA.
 void TUUsuario::testarCenarioSucesso(){
     Nome nome;
     nome.setNome(VALOR_VALIDONome);
@@ -54,7 +54,7 @@ void TUUsuario::testarCenarioSucesso(){
         estado = FALHA;
 }
 
-//A função TUUsuario::run chama todas as funções anteriores de TUUsuario e retorna a variavel estado.
+///A função TUUsuario::run chama todas as funções anteriores de TUUsuario e retorna a variavel estado.
 int TUUsuario::run(){
     setUp();
     testarCenarioSucesso();
@@ -62,19 +62,19 @@ int TUUsuario::run(){
     return estado;
 }
 
-//A função TUHospedagem::setUp define a nova hospedagem e estado como SUCESSO.
+///A função TUHospedagem::setUp define a nova hospedagem e estado como SUCESSO.
 void TUHospedagem::setUp(){
     hospedagem = new Hospedagem();
     estado = SUCESSO;
 }
 
-//A função TUHospedagem::tearDown deleta a hospedagem salva.
+///A função TUHospedagem::tearDown deleta a hospedagem salva.
 void TUHospedagem::tearDown(){
     delete hospedagem;
 }
 
-//A função TUHospedagem::testarCenarioSucesso faz uma verificação em todas as classes que fazem parte de Hospedagem e verifica se os valores recebidos são validos
-//Se os valores invalidos, retorna o estado como FALHA.
+///A função TUHospedagem::testarCenarioSucesso faz uma verificação em todas as classes que fazem parte de Hospedagem e verifica se os valores recebidos são validos
+///Se os valores invalidos, retorna o estado como FALHA.
 void TUHospedagem::testarCenarioSucesso(){
     Codigo codigo;
     codigo.setValor(VALOR_VALIDoCodigo);
@@ -108,7 +108,7 @@ void TUHospedagem::testarCenarioSucesso(){
         estado = FALHA;
 }
 
-//A função TUHospedagem::run chama todas as funções anteriores de TUHospedagem e retorna a variavel estado
+///A função TUHospedagem::run chama todas as funções anteriores de TUHospedagem e retorna a variavel estado
 int TUHospedagem::run(){
     setUp();
     testarCenarioSucesso();
@@ -116,19 +116,19 @@ int TUHospedagem::run(){
     return estado;
 }
 
-//A função TUAvalicao::setUp define a nova avali e estado como SUCESSO.
+///A função TUAvalicao::setUp define a nova avali e estado como SUCESSO.
 void TUAvalicao::setUp(){
     avali = new Avaliacao();
     estado = SUCESSO;
 }
 
-//A função TUAvalicao::tearDown deleta a avali salva.
+///A função TUAvalicao::tearDown deleta a avali salva.
 void TUAvalicao::tearDown(){
     delete avali;
 }
 
-//A função TUAvalicao::testarCenarioSucesso faz uma verificação em todas as classes que fazem parte de Avalicao e verifica se os valores recebidos são validos
-//Se os valores invalidos, retorna o estado como FALHA.
+///A função TUAvalicao::testarCenarioSucesso faz uma verificação em todas as classes que fazem parte de Avalicao e verifica se os valores recebidos são validos
+///Se os valores invalidos, retorna o estado como FALHA.
 void TUAvalicao::testarCenarioSucesso(){
     Codigo codigo;
     codigo.setValor(VALOR_VALIDoCodigo);
@@ -150,7 +150,7 @@ void TUAvalicao::testarCenarioSucesso(){
         estado = FALHA;
 }
 
-//A função TUAvalicao::run chama todas as funções anteriores de TUAvalicao e retorna a variavel estado.
+///A função TUAvalicao::run chama todas as funções anteriores de TUAvalicao e retorna a variavel estado.
 int TUAvalicao::run(){
     setUp();
     testarCenarioSucesso();

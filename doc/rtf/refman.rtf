@@ -1,0 +1,4182 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Trabalho de TP1  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}Trabalho de TP1}
+{\comment Gerado por doxygen 1.9.4.}
+{\creatim \yr2022\mo7\dy19\hr17\min43\sec31}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Trabalho de TP1}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Vers\'E3o 1.0\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Ter\'E7a, 19 de Julho de 2022 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Componentes\par \pard\plain 
+{\tc \v \'CDndice dos Componentes}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Classes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Aqui est\'E3o as classes, estruturas, uni\'F5es e interfaces e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Avaliacao} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Avaliacao}, como {\b Codigo}, {\b Nota} e Descri\'E7\'E3o })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Cidade} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Cidade} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Codigo} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o C\'F3digo })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Data} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Data} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Descricao} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a Descri\'E7\'E3o })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Email} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o E-mail })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Hospedagem} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Hospedagem}, como {\b Codigo}, {\b Cidade}, {\b Pais}, {\b Nota} e Descri\'E7\'E3o })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Idioma} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Idioma} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Nome} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Nome} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Nota} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Nota} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Pais} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Pais} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Senha} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Senha} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUAvalicao} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUCidade} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUCodigo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUData} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUDescricao} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUEmail} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUHospedagem} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUIdioma} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUNome} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUNota} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUPais} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUSenha} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAED \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TUUsuario} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Usuario} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Usuario}, como {\b Nome},{\b Email},{\b Senha},{\b Idioma},{\b Data},{\b Descricao} e outras })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Arquivos\par \pard\plain 
+{\tc \v \'CDndice dos Arquivos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Arquivos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta \'E9 a lista de todos os arquivos e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b C:/Users/Rafael/Documents/final_TP1/{\b main.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/include/{\b entidades.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/include/{\b TuEntidade.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/src/{\b entidades.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Rafael/Documents/final_TP1/src/{\b TuEntidade.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Classes{\tc \v Classes}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Avaliacao\par \pard\plain 
+{\tc\tcl2 \v Avaliacao}
+{\xe \v Avaliacao}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Avaliacao}, como {\b Codigo}, {\b Nota} e Descri\'E7\'E3o. }}\par
+{
+{\f2 #include <entidades.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setCodigo} (const {\b Codigo} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Codigo} {\b getCodigo} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setNota} (const {\b Nota} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Nota} {\b getNota} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDescricao} (const {\b Descricao} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Descricao} {\b getDescricao} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Avaliacao}, como {\b Codigo}, {\b Nota} e Descri\'E7\'E3o. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getCodigo\:Avaliacao}
+{\xe \v Avaliacao\:getCodigo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Codigo} Avaliacao::getCodigo () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 199                                        \{\par
+200     {\cf19 return} codigo;\par
+201 \}\par
+}
+}
+{\xe \v getDescricao\:Avaliacao}
+{\xe \v Avaliacao\:getDescricao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Descricao} Avaliacao::getDescricao () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 217                                              \{\par
+218     {\cf19 return} descricao;\par
+219 \}\par
+}
+}
+{\xe \v getNota\:Avaliacao}
+{\xe \v Avaliacao\:getNota}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Nota} Avaliacao::getNota () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 208                                    \{\par
+209     {\cf19 return} nota;\par
+210 \}\par
+}
+}
+{\xe \v setCodigo\:Avaliacao}
+{\xe \v Avaliacao\:setCodigo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Avaliacao::setCodigo (const {\b Codigo} &  {\i codigo}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 195                                                     \{\par
+196     this->codigo = codigo;\par
+197 \}\par
+}
+}
+{\xe \v setDescricao\:Avaliacao}
+{\xe \v Avaliacao\:setDescricao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Avaliacao::setDescricao (const {\b Descricao} &  {\i descricao}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 213                                                              \{\par
+214     this->descricao = descricao;\par
+215 \}\par
+}
+}
+{\xe \v setNota\:Avaliacao}
+{\xe \v Avaliacao\:setNota}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Avaliacao::setNota (const {\b Nota} &  {\i nota}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 204                                               \{\par
+205     this->nota = nota;\par
+206 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b entidades.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Cidade\par \pard\plain 
+{\tc\tcl2 \v Cidade}
+{\xe \v Cidade}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Cidade}. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setValor} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do nome da {\b Cidade} e utiliza o this-> para referenciar o nome como nomeCidade. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getValor} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Cidade}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getValor\:Cidade}
+{\xe \v Cidade\:getValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Cidade::getValor () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 111                                     \{\par
+112     {\cf19 return} nomeCidade;\par
+113 \}\par
+}
+}
+{\xe \v setValor\:Cidade}
+{\xe \v Cidade\:setValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Cidade::setValor (string  {\i nome})}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do nome da {\b Cidade} e utiliza o this-> para referenciar o nome como nomeCidade. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 74                                 \{\par
+75     validar(nome);\par
+76     this->nomeCidade = nome;\par
+77 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Codigo\par \pard\plain 
+{\tc\tcl2 \v Codigo}
+{\xe \v Codigo}
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o C\'F3digo. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setValor} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string codigo e utiliza o this-> para referenciar o codigo como nome_Codigo. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getValor} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o C\'F3digo. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getValor\:Codigo}
+{\xe \v Codigo\:getValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Codigo::getValor () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 98                                     \{\par
+99     {\cf19 return} nomeCodigo;\par
+100 \}\par
+}
+}
+{\xe \v setValor\:Codigo}
+{\xe \v Codigo\:setValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Codigo::setValor (string  {\i codigo})}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string codigo e utiliza o this-> para referenciar o codigo como nome_Codigo. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 291                                   \{\par
+292     validar(codigo);\par
+293     this->nomeCodigo=codigo;\par
+294 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Data\par \pard\plain 
+{\tc\tcl2 \v Data}
+{\xe \v Data}
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Data}. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setData_nome} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string datinha e utiliza o this-> para referenciar o datinha como data_nome. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getData_nome} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Data}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getData_nome\:Data}
+{\xe \v Data\:getData_nome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Data::getData_nome () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 71                                      \{\par
+72     {\cf19 return} data_nome;\par
+73 \}\par
+}
+}
+{\xe \v setData_nome\:Data}
+{\xe \v Data\:setData_nome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Data::setData_nome (string  {\i datinha})}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string datinha e utiliza o this-> para referenciar o datinha como data_nome. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 270                                      \{\par
+271     validar(datinha);\par
+272     this->data_nome=datinha;\par
+273 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Descricao\par \pard\plain 
+{\tc\tcl2 \v Descricao}
+{\xe \v Descricao}
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a Descri\'E7\'E3o. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDes} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string descri e utiliza o this-> para referenciar o descri como des. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDes} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a Descri\'E7\'E3o. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getDes\:Descricao}
+{\xe \v Descricao\:getDes}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Descricao::getDes () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 84                                     \{\par
+85 {\cf19 return} des;\par
+86 \}\par
+}
+}
+{\xe \v setDes\:Descricao}
+{\xe \v Descricao\:setDes}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Descricao::setDes (string  {\i descri})}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string descri e utiliza o this-> para referenciar o descri como des. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 157                                    \{\par
+158     validar(descri);\par
+159     this->des=descri;\par
+160 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Email\par \pard\plain 
+{\tc\tcl2 \v Email}
+{\xe \v Email}
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o E-mail. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setNomeemsil} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do email codigo e utiliza o this-> para referenciar o email como nome_email. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getNomeemail} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o E-mail. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getNomeemail\:Email}
+{\xe \v Email\:getNomeemail}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Email::getNomeemail () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 32                                       \{\par
+33     {\cf19 return} nome_email;\par
+34 \}\par
+}
+}
+{\xe \v setNomeemsil\:Email}
+{\xe \v Email\:setNomeemsil}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Email::setNomeemsil (string  {\i email})}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do email codigo e utiliza o this-> para referenciar o email como nome_email. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 320                                     \{\par
+321     validar(email);\par
+322     this->nome_email=email;\par
+323 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Hospedagem\par \pard\plain 
+{\tc\tcl2 \v Hospedagem}
+{\xe \v Hospedagem}
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Hospedagem}, como {\b Codigo}, {\b Cidade}, {\b Pais}, {\b Nota} e Descri\'E7\'E3o. }}\par
+{
+{\f2 #include <entidades.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setCodigo} (const {\b Codigo} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Codigo} {\b getCodigo} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setCidade} (const {\b Cidade} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Cidade} {\b getCidade} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPais} (const {\b Pais} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Pais} {\b getPais} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setNota} (const {\b Nota} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Nota} {\b getNota} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDescricao} (const {\b Descricao} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Descricao} {\b getDescricao} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Hospedagem}, como {\b Codigo}, {\b Cidade}, {\b Pais}, {\b Nota} e Descri\'E7\'E3o. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getCidade\:Hospedagem}
+{\xe \v Hospedagem\:getCidade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Cidade} Hospedagem::getCidade () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 139                                         \{\par
+140     {\cf19 return} cidade;\par
+141 \}\par
+}
+}
+{\xe \v getCodigo\:Hospedagem}
+{\xe \v Hospedagem\:getCodigo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Codigo} Hospedagem::getCodigo () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 130                                         \{\par
+131     {\cf19 return} codigo;\par
+132 \}\par
+}
+}
+{\xe \v getDescricao\:Hospedagem}
+{\xe \v Hospedagem\:getDescricao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Descricao} Hospedagem::getDescricao () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 166                                               \{\par
+167     {\cf19 return} descricao;\par
+168 \}\par
+}
+}
+{\xe \v getNota\:Hospedagem}
+{\xe \v Hospedagem\:getNota}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Nota} Hospedagem::getNota () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 157                                     \{\par
+158     {\cf19 return} nota;\par
+159 \}\par
+}
+}
+{\xe \v getPais\:Hospedagem}
+{\xe \v Hospedagem\:getPais}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Pais} Hospedagem::getPais () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 148                                     \{\par
+149     {\cf19 return} pais;\par
+150 \}\par
+}
+}
+{\xe \v setCidade\:Hospedagem}
+{\xe \v Hospedagem\:setCidade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospedagem::setCidade (const {\b Cidade} &  {\i cidade}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 135                                                      \{\par
+136     this->cidade = cidade;\par
+137 \}\par
+}
+}
+{\xe \v setCodigo\:Hospedagem}
+{\xe \v Hospedagem\:setCodigo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospedagem::setCodigo (const {\b Codigo} &  {\i codigo}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 126                                                      \{\par
+127     this->codigo = codigo;\par
+128 \}\par
+}
+}
+{\xe \v setDescricao\:Hospedagem}
+{\xe \v Hospedagem\:setDescricao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospedagem::setDescricao (const {\b Descricao} &  {\i descricao}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 162                                                               \{\par
+163     this->descricao = descricao;\par
+164 \}\par
+}
+}
+{\xe \v setNota\:Hospedagem}
+{\xe \v Hospedagem\:setNota}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospedagem::setNota (const {\b Nota} &  {\i nota}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 153                                                \{\par
+154     this->nota = nota;\par
+155 \}\par
+}
+}
+{\xe \v setPais\:Hospedagem}
+{\xe \v Hospedagem\:setPais}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospedagem::setPais (const {\b Pais} &  {\i pais}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 144                                                \{\par
+145     this->pais = pais;\par
+146 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b entidades.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Idioma\par \pard\plain 
+{\tc\tcl2 \v Idioma}
+{\xe \v Idioma}
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Idioma}. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setLingua} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do idioma e utiliza o this-> para referenciar o idioma como lingua. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getLingua} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Idioma}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getLingua\:Idioma}
+{\xe \v Idioma\:getLingua}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Idioma::getLingua () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 58                                     \{\par
+59 {\cf19 return} lingua;\par
+60 \}\par
+}
+}
+{\xe \v setLingua\:Idioma}
+{\xe \v Idioma\:setLingua}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Idioma::setLingua (string  {\i idioma})}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do idioma e utiliza o this-> para referenciar o idioma como lingua. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 95                                    \{\par
+96     validar(idioma);\par
+97     this->lingua = idioma;\par
+98 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Nome\par \pard\plain 
+{\tc\tcl2 \v Nome}
+{\xe \v Nome}
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Nome}. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setNome} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string nome e utiliza o this-> para referenciar o nome como nome. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getNome} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Nome}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getNome\:Nome}
+{\xe \v Nome\:getNome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Nome::getNome () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19                                 \{\par
+20     {\cf19 return} nome;\par
+21 \}\par
+}
+}
+{\xe \v setNome\:Nome}
+{\xe \v Nome\:setNome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Nome::setNome (string  {\i nome})}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string nome e utiliza o this-> para referenciar o nome como nome. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 194                              \{\par
+195     validar(nome);\par
+196     this->nome=nome;\par
+197 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Nota\par \pard\plain 
+{\tc\tcl2 \v Nota}
+{\xe \v Nota}
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Nota}. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setValor} (int)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do int numero e utiliza o this-> para referenciar o numero como nomeNota. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getValor} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Nota}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getValor\:Nota}
+{\xe \v Nota\:getValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Nota::getValor () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 138                                \{\par
+139     {\cf19 return} nomeNota;\par
+140 \}\par
+}
+}
+{\xe \v setValor\:Nota}
+{\xe \v Nota\:setValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Nota::setValor (int  {\i numero})}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do int numero e utiliza o this-> para referenciar o numero como nomeNota. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 107                              \{\par
+108     validar(numero);\par
+109     this->nomeNota = numero;\par
+110 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Pais\par \pard\plain 
+{\tc\tcl2 \v Pais}
+{\xe \v Pais}
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Pais}. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setValor} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do nome do {\b Pais} e utiliza o this-> para referenciar o nome como nomePais. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getValor} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Pais}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getValor\:Pais}
+{\xe \v Pais\:getValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Pais::getValor () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 124                                   \{\par
+125     {\cf19 return} nomePais;\par
+126 \}\par
+}
+}
+{\xe \v setValor\:Pais}
+{\xe \v Pais\:setValor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Pais::setValor (string  {\i nome})}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do nome do {\b Pais} e utiliza o this-> para referenciar o nome como nomePais. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 51                               \{\par
+52     validar(nome);\par
+53     this->nomePais = nome;\par
+54 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Senha\par \pard\plain 
+{\tc\tcl2 \v Senha}
+{\xe \v Senha}
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Senha}. }}\par
+{
+{\f2 #include <dominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setNome_senha} (string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string senha e utiliza o this-> para referenciar o senha como nome_senha. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getNome_senha} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Senha}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getNome_senha\:Senha}
+{\xe \v Senha\:getNome_senha}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Senha::getNome_senha () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 45                                        \{\par
+46     {\cf19 return} nome_senha;\par
+47 \}\par
+}
+}
+{\xe \v setNome_senha\:Senha}
+{\xe \v Senha\:setNome_senha}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Senha::setNome_senha (string  {\i senha})}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Armazena o valor do string senha e utiliza o this-> para referenciar o senha como nome_senha. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 228                                      \{\par
+229     validar(senha);\par
+230     this->nome_senha=senha;\par
+231 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b dominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b dominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUAvalicao\par \pard\plain 
+{\tc\tcl2 \v TUAvalicao}
+{\xe \v TUAvalicao}
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+\par
+{
+{\f2 #include <TuEntidade.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUAvalicao::run} chama todas as fun\'E7\'F5es anteriores de {\b TUAvalicao} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Dentro da Classe {\b TUAvalicao} \'E9 necess\'E1rio definir quais s\'E3o os valores validos para cada um dos m\'E9todos inline chamados no '#include "entidades.h"' e tamb\'E9m especificar por quais testes eles v\'E3o passar A classe \'E9 divida em duas partes Publica que define as constantes de sucesso e falha e chama a fun\'E7\'E3o {\b run()} para rodar os m\'E9todos e a privada que define os valores validos dos m\'E9todos inline al\'E9m de chamar as fun\'E7\'F5es de testes especificos. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUAvalicao}
+{\xe \v TUAvalicao\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUAvalicao::run ()}}
+\par
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUAvalicao::run} chama todas as fun\'E7\'F5es anteriores de {\b TUAvalicao} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 154                    \{\par
+155     setUp();\par
+156     testarCenarioSucesso();\par
+157     tearDown();\par
+158     {\cf19 return} estado;\par
+159 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUAvalicao}
+{\xe \v TUAvalicao\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUAvalicao::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUAvalicao}
+{\xe \v TUAvalicao\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUAvalicao::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b TuEntidade.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b TuEntidade.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUCidade\par \pard\plain 
+{\tc\tcl2 \v TUCidade}
+{\xe \v TUCidade}
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUCidade::run} chama todas as fun\'E7\'F5es anteriores de {\b TUCidade} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUCidade} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUCidade}
+{\xe \v TUCidade\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUCidade::run ()}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUCidade::run} chama todas as fun\'E7\'F5es anteriores de {\b TUCidade} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 44                  \{\par
+45     setUp();\par
+46     testarCenarioSucesso();\par
+47     testarCenarioFalha();\par
+48     tearDown();\par
+49     {\cf19 return} estado;\par
+50 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUCidade}
+{\xe \v TUCidade\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUCidade::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUCidade}
+{\xe \v TUCidade\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUCidade::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUCodigo\par \pard\plain 
+{\tc\tcl2 \v TUCodigo}
+{\xe \v TUCodigo}
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUCodigo::run} chama todas as fun\'E7\'F5es anteriores de {\b TUCodigo} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUCodigo} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUCodigo}
+{\xe \v TUCodigo\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUCodigo::run ()}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUCodigo::run} chama todas as fun\'E7\'F5es anteriores de {\b TUCodigo} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 458                  \{\par
+459     setUp();\par
+460     testarCenarioSucesso();\par
+461     testarCenarioFalha();\par
+462     tearDown();\par
+463     {\cf19 return} estado;\par
+464 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUCodigo}
+{\xe \v TUCodigo\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUCodigo::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUCodigo}
+{\xe \v TUCodigo\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUCodigo::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUData\par \pard\plain 
+{\tc\tcl2 \v TUData}
+{\xe \v TUData}
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUData::run} chama todas as fun\'E7\'F5es anteriores de {\b TUData} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUData} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUData}
+{\xe \v TUData\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUData::run ()}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUData::run} chama todas as fun\'E7\'F5es anteriores de {\b TUData} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 274                \{\par
+275     setUp();\par
+276     testarCenarioSucesso();\par
+277     testarCenarioFalha();\par
+278     tearDown();\par
+279     {\cf19 return} estado;\par
+280 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUData}
+{\xe \v TUData\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUData::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUData}
+{\xe \v TUData\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUData::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUDescricao\par \pard\plain 
+{\tc\tcl2 \v TUDescricao}
+{\xe \v TUDescricao}
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUDescricao::run} chama todas as fun\'E7\'F5es anteriores de {\b TUDescricao} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUDescricao} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUDescricao}
+{\xe \v TUDescricao\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUDescricao::run ()}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUDescricao::run} chama todas as fun\'E7\'F5es anteriores de {\b TUDescricao} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 320                     \{\par
+321     setUp();\par
+322     testarCenarioSucesso();\par
+323     testarCenarioFalha();\par
+324     tearDown();\par
+325     {\cf19 return} estado;\par
+326 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUDescricao}
+{\xe \v TUDescricao\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUDescricao::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUDescricao}
+{\xe \v TUDescricao\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUDescricao::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUEmail\par \pard\plain 
+{\tc\tcl2 \v TUEmail}
+{\xe \v TUEmail}
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUEmail::run} chama todas as fun\'E7\'F5es anteriores de {\b TUEmail} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUEmail} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUEmail}
+{\xe \v TUEmail\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUEmail::run ()}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUEmail::run} chama todas as fun\'E7\'F5es anteriores de {\b TUEmail} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 412                 \{\par
+413     setUp();\par
+414     testarCenarioSucesso();\par
+415     testarCenarioFalha();\par
+416     tearDown();\par
+417     {\cf19 return} estado;\par
+418 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUEmail}
+{\xe \v TUEmail\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUEmail::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUEmail}
+{\xe \v TUEmail\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUEmail::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUHospedagem\par \pard\plain 
+{\tc\tcl2 \v TUHospedagem}
+{\xe \v TUHospedagem}
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+\par
+{
+{\f2 #include <TuEntidade.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUHospedagem::run} chama todas as fun\'E7\'F5es anteriores de {\b TUHospedagem} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Dentro da Classe TUUHospedagem \'E9 necess\'E1rio definir quais s\'E3o os valores validos para cada um dos m\'E9todos inline chamados no '#include "entidades.h"' e tamb\'E9m especificar por quais testes eles v\'E3o passar A classe \'E9 divida em duas partes Publica que define as constantes de sucesso e falha e chama a fun\'E7\'E3o {\b run()} para rodar os m\'E9todos e a privada que define os valores validos dos m\'E9todos inline al\'E9m de chamar as fun\'E7\'F5es de testes especificos. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUHospedagem}
+{\xe \v TUHospedagem\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUHospedagem::run ()}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUHospedagem::run} chama todas as fun\'E7\'F5es anteriores de {\b TUHospedagem} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 112                      \{\par
+113     setUp();\par
+114     testarCenarioSucesso();\par
+115     tearDown();\par
+116     {\cf19 return} estado;\par
+117 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUHospedagem}
+{\xe \v TUHospedagem\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUHospedagem::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUHospedagem}
+{\xe \v TUHospedagem\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUHospedagem::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b TuEntidade.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b TuEntidade.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUIdioma\par \pard\plain 
+{\tc\tcl2 \v TUIdioma}
+{\xe \v TUIdioma}
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUIdioma::run} chama todas as fun\'E7\'F5es anteriores de {\b TUIdioma} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUIdioma} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUIdioma}
+{\xe \v TUIdioma\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUIdioma::run ()}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUIdioma::run} chama todas as fun\'E7\'F5es anteriores de {\b TUIdioma} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 228                  \{\par
+229     setUp();\par
+230     testarCenarioSucesso();\par
+231     testarCenarioFalha();\par
+232     tearDown();\par
+233     {\cf19 return} estado;\par
+234 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUIdioma}
+{\xe \v TUIdioma\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUIdioma::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUIdioma}
+{\xe \v TUIdioma\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUIdioma::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUNome\par \pard\plain 
+{\tc\tcl2 \v TUNome}
+{\xe \v TUNome}
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUNome::run} chama todas as fun\'E7\'F5es anteriores de {\b TUNome} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUNome} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUNome}
+{\xe \v TUNome\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUNome::run ()}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUNome::run} chama todas as fun\'E7\'F5es anteriores de {\b TUNome} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 136                \{\par
+137     setUp();\par
+138     testarCenarioSucesso();\par
+139     testarCenarioFalha();\par
+140     tearDown();\par
+141     {\cf19 return} estado;\par
+142 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUNome}
+{\xe \v TUNome\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUNome::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUNome}
+{\xe \v TUNome\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUNome::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUNota\par \pard\plain 
+{\tc\tcl2 \v TUNota}
+{\xe \v TUNota}
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUNota::run} chama todas as fun\'E7\'F5es anteriores de {\b TUNota} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUNota} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUNota}
+{\xe \v TUNota\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUNota::run ()}}
+\par
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUNota::run} chama todas as fun\'E7\'F5es anteriores de {\b TUNota} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 90                \{\par
+91     setUp();\par
+92     testarCenarioSucesso();\par
+93     testarCenarioFalha();\par
+94     tearDown();\par
+95     {\cf19 return} estado;\par
+96 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUNota}
+{\xe \v TUNota\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUNota::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUNota}
+{\xe \v TUNota\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUNota::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUPais\par \pard\plain 
+{\tc\tcl2 \v TUPais}
+{\xe \v TUPais}
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUPais::run} chama todas as fun\'E7\'F5es anteriores de {\b TUPais} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUPais} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUPais}
+{\xe \v TUPais\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUPais::run ()}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUPais::run} chama todas as fun\'E7\'F5es anteriores de {\b TUPais} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 182                \{\par
+183     setUp();\par
+184     testarCenarioSucesso();\par
+185     testarCenarioFalha();\par
+186     tearDown();\par
+187     {\cf19 return} estado;\par
+188 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUPais}
+{\xe \v TUPais\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUPais::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUPais}
+{\xe \v TUPais\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUPais::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUSenha\par \pard\plain 
+{\tc\tcl2 \v TUSenha}
+{\xe \v TUSenha}
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+\par
+{
+{\f2 #include <tuDominios.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUSenha::run} chama todas as fun\'E7\'F5es anteriores de {\b TUSenha} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe {\b TUSenha} tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, al\'E9m disso, pegamos as informa\'E7\'F5es necess\'E1rias juntos com o #include "dominios.h" A classe \'E9 dividade em 2 partes, as informa\'E7\'F5es P\'FAblicas que definem valores que aparecem nos testes e que chama a fun\'E7\'E3o para rodar o programa e as Privadas que pegam as informa\'E7\'F5es necessarias e chamam as fun\'E7\'F5es para fazer os testes necessarios. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUSenha}
+{\xe \v TUSenha\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUSenha::run ()}}
+\par
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUSenha::run} chama todas as fun\'E7\'F5es anteriores de {\b TUSenha} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 366                 \{\par
+367     setUp();\par
+368     testarCenarioSucesso();\par
+369     testarCenarioFalha();\par
+370     tearDown();\par
+371     {\cf19 return} estado;\par
+372 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUSenha}
+{\xe \v TUSenha\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUSenha::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUSenha}
+{\xe \v TUSenha\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUSenha::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b tuDominios.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b tuDominios.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TUUsuario\par \pard\plain 
+{\tc\tcl2 \v TUUsuario}
+{\xe \v TUUsuario}
+{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+\par
+{
+{\f2 #include <TuEntidade.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b run} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUUsuario::run} chama todas as fun\'E7\'F5es anteriores de {\b TUUsuario} e retorna a variavel estado. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b SUCESSO} = 0\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const int {\b FALHA} = -1\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Dentro da Classe {\b TUUsuario} \'E9 necess\'E1rio definir quais s\'E3o os valores validos para cada um dos m\'E9todos inline chamados no '#include "entidades.h"' e tamb\'E9m especificar por quais testes eles v\'E3o passar A classe \'E9 divida em duas partes Publica que define as constantes de sucesso e falha e chama a fun\'E7\'E3o {\b run()} para rodar os m\'E9todos e a privada que define os valores validos dos m\'E9todos inline al\'E9m de chamar as fun\'E7\'F5es de testes especificos. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v run\:TUUsuario}
+{\xe \v TUUsuario\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TUUsuario::run ()}}
+\par
+{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o {\b TUUsuario::run} chama todas as fun\'E7\'F5es anteriores de {\b TUUsuario} e retorna a variavel estado. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 58                   \{\par
+59     setUp();\par
+60     testarCenarioSucesso();\par
+61     tearDown();\par
+62     {\cf19 return} estado;\par
+63 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v FALHA\:TUUsuario}
+{\xe \v TUUsuario\:FALHA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUUsuario::FALHA = -1{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v SUCESSO\:TUUsuario}
+{\xe \v TUUsuario\:SUCESSO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const int TUUsuario::SUCESSO = 0{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b TuEntidade.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/src/{\b TuEntidade.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Usuario\par \pard\plain 
+{\tc\tcl2 \v Usuario}
+{\xe \v Usuario}
+{\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Usuario}, como {\b Nome},{\b Email},{\b Senha},{\b Idioma},{\b Data},{\b Descricao} e outras. }}\par
+{
+{\f2 #include <entidades.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setNome} (const {\b Nome} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Nome} {\b getNome} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setEmail} (const {\b Email} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Email} {\b getEmail} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSenha} (const {\b Senha} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Senha} {\b getSenha} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setIdioma} (const {\b Idioma} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Idioma} {\b getIdioma} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setData} (const {\b Data} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Data} {\b getData} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDescricao} (const {\b Descricao} &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Descricao} {\b getDescricao} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Usuario}, como {\b Nome},{\b Email},{\b Senha},{\b Idioma},{\b Data},{\b Descricao} e outras. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es membros\par
+\pard\plain 
+{\xe \v getData\:Usuario}
+{\xe \v Usuario\:getData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Data} Usuario::getData () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 83                                  \{\par
+84     {\cf19 return} data;\par
+85 \}\par
+}
+}
+{\xe \v getDescricao\:Usuario}
+{\xe \v Usuario\:getDescricao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Descricao} Usuario::getDescricao () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 92                                            \{\par
+93     {\cf19 return} descricao;\par
+94 \}\par
+}
+}
+{\xe \v getEmail\:Usuario}
+{\xe \v Usuario\:getEmail}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Email} Usuario::getEmail () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 56                                    \{\par
+57     {\cf19 return} email;\par
+58 \}\par
+}
+}
+{\xe \v getIdioma\:Usuario}
+{\xe \v Usuario\:getIdioma}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Idioma} Usuario::getIdioma () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 74                                      \{\par
+75     {\cf19 return} idioma;\par
+76 \}\par
+}
+}
+{\xe \v getNome\:Usuario}
+{\xe \v Usuario\:getNome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Nome} Usuario::getNome () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 47                                  \{\par
+48     {\cf19 return} nome;\par
+49 \}\par
+}
+}
+{\xe \v getSenha\:Usuario}
+{\xe \v Usuario\:getSenha}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Senha} Usuario::getSenha () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 65                                    \{\par
+66     {\cf19 return} senha;\par
+67 \}\par
+}
+}
+{\xe \v setData\:Usuario}
+{\xe \v Usuario\:setData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Usuario::setData (const {\b Data} &  {\i data}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 79                                             \{\par
+80     this->data = data;\par
+81 \}\par
+}
+}
+{\xe \v setDescricao\:Usuario}
+{\xe \v Usuario\:setDescricao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Usuario::setDescricao (const {\b Descricao} &  {\i descricao}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 88                                                            \{\par
+89     this->descricao = descricao;\par
+90 \}\par
+}
+}
+{\xe \v setEmail\:Usuario}
+{\xe \v Usuario\:setEmail}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Usuario::setEmail (const {\b Email} &  {\i email}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEU}
+{\bkmkend AAAAAAAAEU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 52                                                \{\par
+53     this->email = email;\par
+54 \}\par
+}
+}
+{\xe \v setIdioma\:Usuario}
+{\xe \v Usuario\:setIdioma}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Usuario::setIdioma (const {\b Idioma} &  {\i idioma}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEV}
+{\bkmkend AAAAAAAAEV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 70                                                   \{\par
+71     this->idioma= idioma;\par
+72 \}\par
+}
+}
+{\xe \v setNome\:Usuario}
+{\xe \v Usuario\:setNome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Usuario::setNome (const {\b Nome} &  {\i nome}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEW}
+{\bkmkend AAAAAAAAEW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 43                                             \{\par
+44     this->nome = nome;\par
+45 \}\par
+}
+}
+{\xe \v setSenha\:Usuario}
+{\xe \v Usuario\:setSenha}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Usuario::setSenha (const {\b Senha} &  {\i senha}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEX}
+{\bkmkend AAAAAAAAEX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 61                                                \{\par
+62     this->senha = senha;\par
+63 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa classe foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/Rafael/Documents/final_TP1/include/{\b entidades.h}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Arquivos{\tc \v Arquivos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/include/dominios.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/dominios.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/dominios.h}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <string>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Nome}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Nome}. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Email}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o E-mail. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Senha}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Senha}. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Idioma}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Idioma}. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Data}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Data}. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Descricao}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a Descri\'E7\'E3o. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Codigo}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o C\'F3digo. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Cidade}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Cidade}. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Pais}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena o {\b Pais}. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Nota}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe que identifica e armazena a {\b Nota}. }}\par}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+dominios.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/dominios.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/dominios.h}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+V\'E1 para a documenta\'E7\'E3o desse arquivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef DOMINIOS_H}\par
+2 {\cf21 #define DOMINIOS_H}\par
+3 \par
+4 \par
+5 {\cf21 #include <string>}\par
+6 \par
+7 {\cf20 //matricula: 190035145}\par
+9 {\cf20 }{\cf17 using namespace }std;\par
+11 {\cf17 class }Nome \{\par
+12     {\cf17 private}:\par
+13         {\cf18 string} nome;\par
+14         {\cf18 void} validar({\cf18 string});\par
+15     {\cf17 public}:\par
+16         {\cf18 void} setNome({\cf18 string});\par
+17         {\cf18 string} getNome(){\cf17 const};\par
+18 \};\par
+19 {\cf17 inline} {\cf18 string} Nome::getNome(){\cf17 const}\{\par
+20     {\cf19 return} nome;\par
+21 \}\par
+22 \par
+24 {\cf17 class }Email\{\par
+25     {\cf17 private}:\par
+26         {\cf18 string} nome_email;\par
+27         {\cf18 void} validar({\cf18 string});\par
+28     {\cf17 public}:\par
+29         {\cf18 void} setNomeemsil({\cf18 string});\par
+30         {\cf18 string} getNomeemail(){\cf17 const};\par
+31 \};\par
+32 {\cf17 inline} {\cf18 string} Email::getNomeemail(){\cf17 const}\{\par
+33     {\cf19 return} nome_email;\par
+34 \}\par
+35 \par
+37 {\cf17 class }Senha\{\par
+38     {\cf17 private}:\par
+39         {\cf18 string} nome_senha;\par
+40         {\cf18 void} validar({\cf18 string});\par
+41     {\cf17 public}:\par
+42         {\cf18 void} setNome_senha({\cf18 string});\par
+43         {\cf18 string} getNome_senha(){\cf17 const};\par
+44 \};\par
+45 {\cf17 inline} {\cf18 string} Senha::getNome_senha(){\cf17 const}\{\par
+46     {\cf19 return} nome_senha;\par
+47 \}\par
+48 \par
+50 {\cf17 class }Idioma\{\par
+51     {\cf17 private}:\par
+52         {\cf18 string} lingua;\par
+53         {\cf18 void} validar({\cf18 string});\par
+54     {\cf17 public}:\par
+55         {\cf18 void} setLingua({\cf18 string});\par
+56         {\cf18 string} getLingua(){\cf17 const};\par
+57 \};\par
+58 {\cf17 inline} {\cf18 string} Idioma::getLingua(){\cf17 const}\{\par
+59 {\cf19 return} lingua;\par
+60 \}\par
+61 \par
+63 {\cf17 class }Data\{\par
+64     {\cf17 private}:\par
+65         {\cf18 string} data_nome;\par
+66         {\cf18 void} validar({\cf18 string});\par
+67     {\cf17 public}:\par
+68         {\cf18 void} setData_nome({\cf18 string});\par
+69         {\cf18 string} getData_nome(){\cf17 const};\par
+70 \};\par
+71 {\cf17 inline} {\cf18 string} Data::getData_nome(){\cf17 const}\{\par
+72     {\cf19 return} data_nome;\par
+73 \}\par
+74 \par
+76 {\cf17 class }Descricao\{\par
+77     {\cf17 private}:\par
+78         {\cf18 string} des;\par
+79         {\cf18 void} validar({\cf18 string});\par
+80     {\cf17 public}:\par
+81         {\cf18 void} setDes({\cf18 string});\par
+82         {\cf18 string} getDes(){\cf17 const};\par
+83 \};\par
+84 {\cf17 inline} {\cf18 string} Descricao::getDes(){\cf17 const}\{\par
+85 {\cf19 return} des;\par
+86 \}\par
+87 \par
+89 {\cf17 class }Codigo \{\par
+90     {\cf17 private}:\par
+91         {\cf18 string} nomeCodigo;\par
+92         {\cf18 void} validar({\cf18 string});\par
+93     {\cf17 public}:\par
+94         {\cf18 void} setValor({\cf18 string});\par
+95         {\cf18 string} getValor() {\cf17 const};\par
+96 \};\par
+97 \par
+98 {\cf17 inline} {\cf18 string} Codigo::getValor(){\cf17  const}\{\par
+99     {\cf19 return} nomeCodigo;\par
+100 \}\par
+102 {\cf17 class }Cidade \{\par
+103     {\cf17 private}:\par
+104         {\cf18 string} nomeCidade;\par
+105         {\cf18 void} validar({\cf18 string});\par
+106     {\cf17 public}:\par
+107         {\cf18 void} setValor({\cf18 string});\par
+108         {\cf18 string} getValor() {\cf17 const};\par
+109 \};\par
+110 \par
+111 {\cf17 inline} {\cf18 string} Cidade::getValor(){\cf17  const}\{\par
+112     {\cf19 return} nomeCidade;\par
+113 \}\par
+115 {\cf17 class }Pais \{\par
+116     {\cf17 private}:\par
+117         {\cf18 string} nomePais;\par
+118         {\cf18 void} validar({\cf18 string});\par
+119     {\cf17 public}:\par
+120         {\cf18 void} setValor({\cf18 string});\par
+121         {\cf18 string} getValor() {\cf17 const};\par
+122 \};\par
+123 \par
+124 {\cf17 inline} {\cf18 string} Pais::getValor(){\cf17  const}\{\par
+125     {\cf19 return} nomePais;\par
+126 \}\par
+127 \par
+129 {\cf17 class }Nota \{\par
+130     {\cf17 private}:\par
+131         {\cf18 int} nomeNota;\par
+132         {\cf18 void} validar({\cf18 int});\par
+133     {\cf17 public}:\par
+134         {\cf18 void} setValor({\cf18 int});\par
+135         {\cf18 int} getValor() {\cf17 const};\par
+136 \};\par
+137 \par
+138 {\cf17 inline} {\cf18 int} Nota::getValor(){\cf17  const}\{\par
+139     {\cf19 return} nomeNota;\par
+140 \}\par
+141 \par
+142 {\cf21 #endif }{\cf20 // DOMINIOS_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/include/entidades.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/entidades.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/entidades.h}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <dominios.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Usuario}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Usuario}, como {\b Nome},{\b Email},{\b Senha},{\b Idioma},{\b Data},{\b Descricao} e outras. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Hospedagem}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Hospedagem}, como {\b Codigo}, {\b Cidade}, {\b Pais}, {\b Nota} e Descri\'E7\'E3o. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Avaliacao}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Entidade responsavel pelas Classes que compoem o a Classe {\b Avaliacao}, como {\b Codigo}, {\b Nota} e Descri\'E7\'E3o. }}\par}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+entidades.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/entidades.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/entidades.h}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+V\'E1 para a documenta\'E7\'E3o desse arquivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef ENTIDADES_H}\par
+2 {\cf21 #define ENTIDADES_H}\par
+3 {\cf21 #include<dominios.h>}\par
+4 \par
+5 \par
+6 {\cf20 //matricula: 221003995}\par
+7 \par
+8 {\cf17 using namespace }std;\par
+10 {\cf17 class }Usuario\{\par
+11 {\cf17 private}:\par
+12     Nome nome;\par
+13     Email email;\par
+14     Senha senha;\par
+15     Idioma idioma;\par
+16     Data data;\par
+17     Descricao descricao;\par
+18 {\cf17 public}:\par
+19     {\cf18 void} setNome({\cf17 const} Nome&);\par
+20     Nome getNome() {\cf17 const};\par
+21 \par
+22     {\cf18 void} setEmail({\cf17 const} Email&);\par
+23     Email getEmail() {\cf17 const};\par
+24 \par
+25     {\cf18 void} setSenha({\cf17 const} Senha&);\par
+26     Senha getSenha() {\cf17 const};\par
+27 \par
+28     {\cf18 void} setIdioma({\cf17 const} Idioma&);\par
+29     Idioma getIdioma() {\cf17 const};\par
+30 \par
+31     {\cf18 void} setData({\cf17 const} Data&);\par
+32     Data getData() {\cf17 const};\par
+33 \par
+34     {\cf18 void} setDescricao({\cf17 const} Descricao&);\par
+35     Descricao getDescricao() {\cf17 const};\par
+36 \};\par
+37 \par
+38 {\cf20 // Em todos os metodos inlines abaixo, s\'E3o referentes a Classe Usu\'E1rio e eles }\par
+39 {\cf20 // foram utilizados o termo "this->" para evitar que o compilador tenha problemas }\par
+40 {\cf20 // em identificar uma variavel/membro em cada um dos dominios.}\par
+41 \par
+42 {\cf20 //metodos inline de Nome em Usuario.}\par
+43 {\cf17 inline} {\cf18 void} Usuario::setNome({\cf17 const} Nome& nome)\{\par
+44     this->nome = nome;\par
+45 \}\par
+46 {\cf20 //metodos inline de Nome em Usuario.}\par
+47 {\cf17 inline} Nome Usuario::getNome(){\cf17 const}\{\par
+48     {\cf19 return} nome;\par
+49 \}\par
+50 \par
+51 {\cf20 //metodos inline de Email em Usuario.}\par
+52 {\cf17 inline} {\cf18 void} Usuario::setEmail({\cf17 const} Email& email)\{\par
+53     this->email = email;\par
+54 \}\par
+55 {\cf20 //metodos inline de Email em Usuario.}\par
+56 {\cf17 inline} Email Usuario::getEmail(){\cf17 const}\{\par
+57     {\cf19 return} email;\par
+58 \}\par
+59 \par
+60 {\cf20 //metodos inline de Senha em Usuario.}\par
+61 {\cf17 inline} {\cf18 void} Usuario::setSenha({\cf17 const} Senha& senha)\{\par
+62     this->senha = senha;\par
+63 \}\par
+64 {\cf20 //metodos inline de Senha em Usuario.}\par
+65 {\cf17 inline} Senha Usuario::getSenha(){\cf17 const}\{\par
+66     {\cf19 return} senha;\par
+67 \}\par
+68 \par
+69 {\cf20 //metodo inline de Idioma em Usuario.}\par
+70 {\cf17 inline} {\cf18 void} Usuario::setIdioma({\cf17 const} Idioma& idioma)\{\par
+71     this->idioma= idioma;\par
+72 \}\par
+73 {\cf20 //metodo inline de Idioma em Usuario.}\par
+74 {\cf17 inline} Idioma Usuario::getIdioma(){\cf17 const}\{\par
+75     {\cf19 return} idioma;\par
+76 \}\par
+77 \par
+78 {\cf20 //metodo inline de Data em Usuario.}\par
+79 {\cf17 inline} {\cf18 void} Usuario::setData({\cf17 const} Data& data)\{\par
+80     this->data = data;\par
+81 \}\par
+82 {\cf20 //metodo inline de Data em Usuario.}\par
+83 {\cf17 inline} Data Usuario::getData(){\cf17 const}\{\par
+84     {\cf19 return} data;\par
+85 \}\par
+86 \par
+87 {\cf20 //metodo inline de Descricao em Usuario.}\par
+88 {\cf17 inline} {\cf18 void} Usuario::setDescricao({\cf17 const} Descricao& descricao)\{\par
+89     this->descricao = descricao;\par
+90 \}\par
+91 {\cf20 //metodo inline de Descricao em Usuario.}\par
+92 {\cf17 inline} Descricao Usuario::getDescricao(){\cf17 const}\{\par
+93     {\cf19 return} descricao;\par
+94 \}\par
+95 \par
+97 {\cf17 class }Hospedagem \{\par
+98     {\cf17 private}:\par
+99         Codigo codigo;\par
+100         Cidade cidade;\par
+101         Pais pais;\par
+102         Nota nota;\par
+103         Descricao descricao;\par
+104     {\cf17 public}:\par
+105          {\cf18 void} setCodigo({\cf17 const} Codigo&);\par
+106          Codigo getCodigo() {\cf17 const};\par
+107 \par
+108          {\cf18 void} setCidade({\cf17 const} Cidade&);\par
+109          Cidade getCidade(){\cf17 const};\par
+110 \par
+111          {\cf18 void} setPais({\cf17 const} Pais&);\par
+112          Pais getPais(){\cf17 const};\par
+113 \par
+114          {\cf18 void} setNota({\cf17 const} Nota&);\par
+115          Nota getNota(){\cf17 const};\par
+116 \par
+117          {\cf18 void} setDescricao({\cf17 const} Descricao&);\par
+118          Descricao getDescricao() {\cf17 const};\par
+119 \};\par
+120 \par
+121 {\cf20 // Em todos os metodos inlines abaixo, s\'E3o referentes a Classe Hospedagem e eles }\par
+122 {\cf20 // foram utilizados o termo "this->" para evitar que o compilador tenha problemas }\par
+123 {\cf20 // em identificar uma variavel/membro em cada um dos dominios.}\par
+124 \par
+125 {\cf20 //metodos inlines de Codigo em Hospedagem.}\par
+126 {\cf17 inline} {\cf18 void} Hospedagem::setCodigo({\cf17 const} Codigo& codigo)\{\par
+127     this->codigo = codigo;\par
+128 \}\par
+129 {\cf20 //metodos inlines de Codigo em Hospedagem.}\par
+130 {\cf17 inline} Codigo Hospedagem::getCodigo(){\cf17 const}\{\par
+131     {\cf19 return} codigo;\par
+132 \}\par
+133 \par
+134 {\cf20 //metodos inlines de Cidade em Hospedagem.}\par
+135 {\cf17 inline} {\cf18 void} Hospedagem::setCidade({\cf17 const} Cidade& cidade)\{\par
+136     this->cidade = cidade;\par
+137 \}\par
+138 {\cf20 //metodos inlines de Cidade em Hospedagem.}\par
+139 {\cf17 inline} Cidade Hospedagem::getCidade(){\cf17 const}\{\par
+140     {\cf19 return} cidade;\par
+141 \}\par
+142 \par
+143 {\cf20 //metodos inlines de Pais em Hospedagem.}\par
+144 {\cf17 inline} {\cf18 void} Hospedagem::setPais({\cf17 const} Pais& pais)\{\par
+145     this->pais = pais;\par
+146 \}\par
+147 {\cf20 //metodos inlines de Pais em Hospedagem.}\par
+148 {\cf17 inline} Pais Hospedagem::getPais(){\cf17 const}\{\par
+149     {\cf19 return} pais;\par
+150 \}\par
+151 \par
+152 {\cf20 //metodos inlines de Nota em Hospedagem.}\par
+153 {\cf17 inline} {\cf18 void} Hospedagem::setNota({\cf17 const} Nota& nota)\{\par
+154     this->nota = nota;\par
+155 \}\par
+156 {\cf20 //metodos inlines de Nota em Hospedagem.}\par
+157 {\cf17 inline} Nota Hospedagem::getNota(){\cf17 const}\{\par
+158     {\cf19 return} nota;\par
+159 \}\par
+160 \par
+161 {\cf20 //metodos inlines de Descricao em Hospedagem.}\par
+162 {\cf17 inline} {\cf18 void} Hospedagem::setDescricao({\cf17 const} Descricao& descricao)\{\par
+163     this->descricao = descricao;\par
+164 \}\par
+165 {\cf20 //metodos inlines de Descricao em Hospedagem.}\par
+166 {\cf17 inline} Descricao Hospedagem::getDescricao(){\cf17 const}\{\par
+167     {\cf19 return} descricao;\par
+168 \}\par
+169 \par
+171 {\cf17 class }Avaliacao \{\par
+172 \par
+173     {\cf17 private}:\par
+174         Codigo codigo;\par
+175         Nota nota;\par
+176         Descricao descricao;\par
+177 \par
+178     {\cf17 public}:\par
+179 \par
+180         {\cf18 void} setCodigo({\cf17 const} Codigo&);\par
+181         Codigo getCodigo() {\cf17 const};\par
+182 \par
+183         {\cf18 void} setNota({\cf17 const} Nota&);\par
+184         Nota getNota(){\cf17 const};\par
+185 \par
+186         {\cf18 void} setDescricao({\cf17 const} Descricao&);\par
+187         Descricao getDescricao() {\cf17 const};\par
+188 \};\par
+189 \par
+190 {\cf20 // Em todos os metodos inlines abaixo, s\'E3o referentes a Classe Hospedagem e eles }\par
+191 {\cf20 // foram utilizados o termo "this->" para evitar que o compilador tenha problemas }\par
+192 {\cf20 // em identificar uma variavel/membro em cada um dos dominios.}\par
+193 \par
+194 {\cf20 //metodos inline de Codigo em Avalia\'E7\'E3o.}\par
+195 {\cf17 inline} {\cf18 void} Avaliacao::setCodigo({\cf17 const} Codigo& codigo)\{\par
+196     this->codigo = codigo;\par
+197 \}\par
+198 {\cf20 //metodos inline de Codigo em Avalia\'E7\'E3o.}\par
+199 {\cf17 inline} Codigo Avaliacao::getCodigo(){\cf17 const}\{\par
+200     {\cf19 return} codigo;\par
+201 \}\par
+202 \par
+203 {\cf20 //metodos inline de Nota em Avalia\'E7\'E3o.}\par
+204 {\cf17 inline} {\cf18 void} Avaliacao::setNota({\cf17 const} Nota& nota)\{\par
+205     this->nota = nota;\par
+206 \}\par
+207 {\cf20 //metodos inline de Nota em Avalia\'E7\'E3o.}\par
+208 {\cf17 inline} Nota Avaliacao::getNota(){\cf17 const}\{\par
+209     {\cf19 return} nota;\par
+210 \}\par
+211 \par
+212 {\cf20 //metodos inline de Descricao em Avalia\'E7\'E3o.}\par
+213 {\cf17 inline} {\cf18 void} Avaliacao::setDescricao({\cf17 const} Descricao& descricao)\{\par
+214     this->descricao = descricao;\par
+215 \}\par
+216 {\cf20 //metodos inline de Descricao em Avalia\'E7\'E3o.}\par
+217 {\cf17 inline} Descricao Avaliacao::getDescricao(){\cf17 const}\{\par
+218     {\cf19 return} descricao;\par
+219 \}\par
+220 \par
+221 {\cf21 #endif }{\cf20 // ENTIDADES_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/include/tuDominios.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/tuDominios.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/tuDominios.h}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "dominios.h"}\par
+{\f2 #include <cstring>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUCidade}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUNota}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUNome}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUPais}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUIdioma}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUData}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUDescricao}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUSenha}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUEmail}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUCodigo}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+tuDominios.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/tuDominios.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/tuDominios.h}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+V\'E1 para a documenta\'E7\'E3o desse arquivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef TUDOMINIOS_H}\par
+2 {\cf21 #define TUDOMINIOS_H}\par
+3 {\cf21 #include "dominios.h"}\par
+4 {\cf21 #include <cstring>}\par
+5 \par
+6 {\cf20 //matricula: 190035145}\par
+7 \par
+8 {\cf20 //Todos as classes aqui est\'E3o com valores definidos para serem testadas nos Testes Unitarios propostos.}\par
+9 \par
+10 {\cf17 using namespace }std;\par
+14 {\cf17 class }TUCidade\{\par
+15 {\cf17 private}:\par
+16     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "Paris"};\par
+17     {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "Parissssw"};\par
+18     Cidade *cidade;\par
+19     {\cf18 int} estado;\par
+20     {\cf18 void} setUp();\par
+21     {\cf18 void} tearDown();\par
+22     {\cf18 void} testarCenarioSucesso();\par
+23     {\cf18 void} testarCenarioFalha();\par
+24 \par
+25 {\cf17 public}:\par
+26     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+27     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+28     {\cf18 int} run();\par
+29 \};\par
+30 \par
+34 {\cf17 class }TUNota\{\par
+35 {\cf17 private}:\par
+36     {\cf17 const} {\cf17 static} {\cf18 int} VALOR_VALIDO= 5;\par
+37     {\cf17 const} {\cf17 static} {\cf18 int} VALOR_INVALIDO = 11;\par
+38     Nota *nota;\par
+39     {\cf18 int} estado;\par
+40     {\cf18 void} setUp();\par
+41     {\cf18 void} tearDown();\par
+42     {\cf18 void} testarCenarioSucesso();\par
+43     {\cf18 void} testarCenarioFalha();\par
+44 \par
+45 {\cf17 public}:\par
+46     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+47     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+48     {\cf18 int} run();\par
+49 \};\par
+50 \par
+54 {\cf17 class }TUNome\{\par
+55 {\cf17 private}:\par
+56    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "Mateus Pereira"};\par
+57   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "Mateus pereira"};\par
+58     Nome *nome;\par
+59     {\cf18 int} estado;\par
+60     {\cf18 void} setUp();\par
+61     {\cf18 void} tearDown();\par
+62     {\cf18 void} testarCenarioSucesso();\par
+63     {\cf18 void} testarCenarioFalha();\par
+64 \par
+65 {\cf17 public}:\par
+66     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+67     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+68     {\cf18 int} run();\par
+69 \};\par
+70 \par
+74 {\cf17 class }TUPais\{\par
+75 {\cf17 private}:\par
+76    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "Brasil"};\par
+77   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "Panama"};\par
+78     Pais *pais;\par
+79     {\cf18 int} estado;\par
+80     {\cf18 void} setUp();\par
+81     {\cf18 void} tearDown();\par
+82     {\cf18 void} testarCenarioSucesso();\par
+83     {\cf18 void} testarCenarioFalha();\par
+84 \par
+85 {\cf17 public}:\par
+86     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+87     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+88     {\cf18 int} run();\par
+89 \};\par
+90 \par
+94 {\cf17 class }TUIdioma\{\par
+95 {\cf17 private}:\par
+96    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "Ingles"};\par
+97   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "casteliano"};\par
+98     Idioma *idioma;\par
+99     {\cf18 int} estado;\par
+100     {\cf18 void} setUp();\par
+101     {\cf18 void} tearDown();\par
+102     {\cf18 void} testarCenarioSucesso();\par
+103     {\cf18 void} testarCenarioFalha();\par
+104 \par
+105 {\cf17 public}:\par
+106     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+107     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+108     {\cf18 int} run();\par
+109 \};\par
+110 \par
+114 {\cf17 class }TUData\{\par
+115 {\cf17 private}:\par
+116    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "09/Jan"};\par
+117   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "39/Fev"};\par
+118     Data *data;\par
+119     {\cf18 int} estado;\par
+120     {\cf18 void} setUp();\par
+121     {\cf18 void} tearDown();\par
+122     {\cf18 void} testarCenarioSucesso();\par
+123     {\cf18 void} testarCenarioFalha();\par
+124 \par
+125 {\cf17 public}:\par
+126     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+127     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+128     {\cf18 int} run();\par
+129 \};\par
+130 \par
+134 {\cf17 class }TUDescricao\{\par
+135 {\cf17 private}:\par
+136    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "texto elaborado perfeito"};\par
+137   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "texto  muito  mal"};\par
+138     Descricao *descricao;\par
+139     {\cf18 int} estado;\par
+140     {\cf18 void} setUp();\par
+141     {\cf18 void} tearDown();\par
+142     {\cf18 void} testarCenarioSucesso();\par
+143     {\cf18 void} testarCenarioFalha();\par
+144 \par
+145 {\cf17 public}:\par
+146     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+147     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+148     {\cf18 int} run();\par
+149 \};\par
+150 \par
+154 {\cf17 class }TUSenha\{\par
+155 {\cf17 private}:\par
+156    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "senha4#k"};\par
+157   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "texto3"};\par
+158     Senha *senha;\par
+159     {\cf18 int} estado;\par
+160     {\cf18 void} setUp();\par
+161     {\cf18 void} tearDown();\par
+162     {\cf18 void} testarCenarioSucesso();\par
+163     {\cf18 void} testarCenarioFalha();\par
+164 \par
+165 {\cf17 public}:\par
+166     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+167     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+168     {\cf18 int} run();\par
+169 \};\par
+170 \par
+171 \par
+175 {\cf17 class }TUEmail\{\par
+176 {\cf17 private}:\par
+177    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "mateussilva@gmail.com"};\par
+178   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 ".mateussilva@gmail.com"};\par
+179     Email *email;\par
+180     {\cf18 int} estado;\par
+181     {\cf18 void} setUp();\par
+182     {\cf18 void} tearDown();\par
+183     {\cf18 void} testarCenarioSucesso();\par
+184     {\cf18 void} testarCenarioFalha();\par
+185 \par
+186 {\cf17 public}:\par
+187     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+188     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+189     {\cf18 int} run();\par
+190 \};\par
+191 \par
+195 {\cf17 class }TUCodigo\{\par
+196 {\cf17 private}:\par
+197    {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDO= {\cf22 "79927398713"};\par
+198   {\cf17 inline}  {\cf17 const} {\cf17 static} {\cf18 string} VALOR_INVALIDO = {\cf22 "79927398717"};\par
+199     Codigo *codigo;\par
+200     {\cf18 int} estado;\par
+201     {\cf18 void} setUp();\par
+202     {\cf18 void} tearDown();\par
+203     {\cf18 void} testarCenarioSucesso();\par
+204     {\cf18 void} testarCenarioFalha();\par
+205 \par
+206 {\cf17 public}:\par
+207     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+208     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+209     {\cf18 int} run();\par
+210 \};\par
+211 \par
+212 {\cf21 #endif }{\cf20 // TUDOMINIOS_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/include/TuEntidade.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/TuEntidade.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/TuEntidade.h}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "entidades.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUUsuario}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUHospedagem}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TUAvalicao}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+TuEntidade.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/include/TuEntidade.h}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/include/TuEntidade.h}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+V\'E1 para a documenta\'E7\'E3o desse arquivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef TUENTIDADE_H}\par
+2 {\cf21 #define TUENTIDADE_H}\par
+3 {\cf21 #include "entidades.h"}\par
+4 \par
+5 {\cf20 //matricula: 160142334}\par
+6 \par
+7 \par
+8 {\cf17 using namespace }std;\par
+9 \par
+13 {\cf17 class }TUUsuario \{\par
+14 {\cf17 private}:\par
+15     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDONome   ={\cf22 "Mateus"};\par
+16     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDOEmail   ={\cf22 "Mateus.silva09082000@gmail.com"};\par
+17     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDOSenha   ={\cf22 "senha4#k"};\par
+18     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDOIdioma   ={\cf22 "Ingles"};\par
+19     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDOData   ={\cf22 "07/Jan"};\par
+20     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDODescri ={\cf22 "texto elaborado perfeito"};\par
+21 \par
+22      Usuario *usuario;\par
+23     {\cf18 int} estado;\par
+24     {\cf18 void} setUp();\par
+25     {\cf18 void} tearDown();\par
+26     {\cf18 void} testarCenarioSucesso();\par
+27 {\cf17 public}:\par
+28     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+29     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+30     {\cf18 int} run();\par
+31 \};\par
+32 \par
+36 {\cf17 class }TUHospedagem \{\par
+37 {\cf17 private}:\par
+38     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDoCodigo   ={\cf22 "79927398713"};\par
+39     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDOCidade   ={\cf22 "Paris"};\par
+40     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDOPais  ={\cf22 "Brasil"};\par
+41     {\cf17 const} {\cf17 static} {\cf18 int} VALOR_VALIDONota =5;\par
+42     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDODescri ={\cf22 "texto elaborado perfeito"};\par
+43 \par
+44      Hospedagem *hospedagem;\par
+45     {\cf18 int} estado;\par
+46     {\cf18 void} setUp();\par
+47     {\cf18 void} tearDown();\par
+48     {\cf18 void} testarCenarioSucesso();\par
+49 {\cf17 public}:\par
+50     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+51     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+52     {\cf18 int} run();\par
+53 \};\par
+54 \par
+58 {\cf17 class }TUAvalicao \{\par
+59 {\cf17 private}:\par
+60     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDoCodigo   ={\cf22 "79927398713"};\par
+61     {\cf17 const} {\cf17 static} {\cf18 int} VALOR_VALIDONota =5;\par
+62     {\cf17 inline} {\cf17 const} {\cf17 static} {\cf18 string} VALOR_VALIDODescri ={\cf22 "texto elaborado perfeito"};\par
+63 \par
+64     Avaliacao *avali;\par
+65     {\cf18 int} estado;\par
+66     {\cf18 void} setUp();\par
+67     {\cf18 void} tearDown();\par
+68     {\cf18 void} testarCenarioSucesso();\par
+69 {\cf17 public}:\par
+70     {\cf17 const} {\cf17 static} {\cf18 int} SUCESSO =  0;\par
+71     {\cf17 const} {\cf17 static} {\cf18 int} FALHA   = -1;\par
+72     {\cf18 int} run();\par
+73 \};\par
+74 \par
+75 {\cf21 #endif }{\cf20 // TUENTIDADE_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/main.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/main.cpp}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/main.cpp}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}\par
+{\f2 #include "dominios.h"}\par
+{\f2 #include "tuDominios.h"}\par
+{\f2 #include "TuEntidade.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+matricula: 160142334 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v main\:main.cpp}
+{\xe \v main.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main ()}}
+\par
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+matricula: 160142334 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A fun\'E7\'E3o main \'E9 respons\'E1vel por todo o controle do c\'F3digo, nessa main, rodamos todos os testes para cada tipo de classe e m\'E9todo. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Invoca o testeA em {\b TUCidade}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o teste em {\b TUNota}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o testeq em {\b TUNome}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o tupaisw em {\b TUPais}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o tuidioma em {\b TUIdioma}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o tudata em {\b TUData}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o tudes em {\b TUDescricao}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o tusenha em {\b TUSenha}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o tuemail em {\b TUEmail}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o tucodigo em {\b TUCodigo}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o testeB em {\b TUUsuario}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o testehosp em {\b TUHospedagem}\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+Invoca o testeavali em TUAvaliacao\par
+Invocar m\'E9todo e apresentar mensagem acerca do resultado do teste.\par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10 \{\par
+12        TUCidade testeA;\par
+13 \par
+15     {\cf19 switch}(testeA.run())\{\par
+16         {\cf19 case} TUCidade::SUCESSO: cout << {\cf22 "SUCESSO - Cidade"} << endl;\par
+17                                 {\cf19 break};\par
+18         {\cf19 case} TUCidade::FALHA  : cout << {\cf22 "FALHA   - Cidade"} << endl;\par
+19                                 {\cf19 break};\par
+20     \}\par
+22      TUNota teste;\par
+24     {\cf19 switch}(teste.run())\{\par
+25         {\cf19 case} TUNota::SUCESSO: cout << {\cf22 "SUCESSO - Nota"} << endl;\par
+26                                 {\cf19 break};\par
+27         {\cf19 case} TUNota::FALHA  : cout << {\cf22 "FALHA   - Nota"} << endl;\par
+28                                 {\cf19 break};\par
+29     \}\par
+30 \par
+31 \par
+33    TUNome testeq;\par
+35     {\cf19 switch}(testeq.run())\{\par
+36         {\cf19 case} TUNome::SUCESSO: cout << {\cf22 "SUCESSO - Nome"} << endl;\par
+37                                 {\cf19 break};\par
+38         {\cf19 case} TUNome::FALHA  : cout << {\cf22 "FALHA   - Nome"} << endl;\par
+39                                 {\cf19 break};\par
+40     \}\par
+42      TUPais tupaisw;\par
+44     {\cf19 switch}(tupaisw.run())\{\par
+45         {\cf19 case} TUPais::SUCESSO: cout << {\cf22 "SUCESSO - Pais"} << endl;\par
+46                                 {\cf19 break};\par
+47         {\cf19 case} TUPais::FALHA  : cout << {\cf22 "FALHA   - Pais"} << endl;\par
+48                                 {\cf19 break};\par
+49     \}\par
+50 \par
+52       TUIdioma tuidioma;\par
+54     {\cf19 switch}(tuidioma.run())\{\par
+55         {\cf19 case} TUIdioma::SUCESSO: cout << {\cf22 "SUCESSO - Idioma"} << endl;\par
+56                                 {\cf19 break};\par
+57         {\cf19 case} TUIdioma::FALHA  : cout << {\cf22 "FALHA   - Idioma"} << endl;\par
+58                                 {\cf19 break};\par
+59     \}\par
+60 \par
+62       TUData tudata;\par
+64     {\cf19 switch}(tudata.run())\{\par
+65         {\cf19 case} TUData::SUCESSO: cout << {\cf22 "SUCESSO - Data"} << endl;\par
+66                                 {\cf19 break};\par
+67         {\cf19 case} TUData::FALHA  : cout << {\cf22 "FALHA   - Data"} << endl;\par
+68                                 {\cf19 break};\par
+69     \}\par
+70 \par
+71 \par
+73       TUDescricao tudes;\par
+75     {\cf19 switch}(tudes.run())\{\par
+76         {\cf19 case} TUDescricao::SUCESSO: cout << {\cf22 "SUCESSO - Descri\'E7\'E3o"} << endl;\par
+77                                 {\cf19 break};\par
+78         {\cf19 case} TUDescricao::FALHA  : cout << {\cf22 "FALHA   - Descri\'E7\'E3o"} << endl;\par
+79                                 {\cf19 break};\par
+80     \}\par
+81 \par
+83       TUSenha tusenha;\par
+85     {\cf19 switch}(tusenha.run())\{\par
+86         {\cf19 case} TUSenha::SUCESSO: cout << {\cf22 "SUCESSO - Senha"} << endl;\par
+87                                 {\cf19 break};\par
+88         {\cf19 case} TUSenha::FALHA  : cout << {\cf22 "FALHA   - Senha"} << endl;\par
+89                                 {\cf19 break};\par
+90     \}\par
+91 \par
+93       TUEmail tuemail;\par
+95     {\cf19 switch}(tuemail.run())\{\par
+96         {\cf19 case} TUEmail::SUCESSO: cout << {\cf22 "SUCESSO - Email"} << endl;\par
+97                                 {\cf19 break};\par
+98         {\cf19 case} TUEmail::FALHA  : cout << {\cf22 "FALHA   - Email"} << endl;\par
+99                                 {\cf19 break};\par
+100     \}\par
+101 \par
+103       TUCodigo tucodigo;\par
+105     {\cf19 switch}(tucodigo.run())\{\par
+106         {\cf19 case} TUCodigo::SUCESSO: cout << {\cf22 "SUCESSO - Codigo"} << endl;\par
+107                                 {\cf19 break};\par
+108         {\cf19 case} TUCodigo::FALHA  : cout << {\cf22 "FALHA   - Codigo"} << endl;\par
+109                                 {\cf19 break};\par
+110     \}\par
+111 \par
+112 \par
+113 cout << {\cf22 "--------------------------------------------------------------------"} << endl;\par
+114 \par
+116        TUUsuario testeB;\par
+118     {\cf19 switch}(testeB.run())\{\par
+119         {\cf19 case} TUUsuario::SUCESSO: cout << {\cf22 "SUCESSO - Usuario"} << endl;\par
+120                                 {\cf19 break};\par
+121         {\cf19 case} TUUsuario::FALHA  : cout << {\cf22 "FALHA   - Usuario"} << endl;\par
+122                                 {\cf19 break};\par
+123     \}\par
+124 \par
+126       TUHospedagem testehosp;\par
+128     {\cf19 switch}(testehosp.run())\{\par
+129         {\cf19 case} TUHospedagem::SUCESSO: cout << {\cf22 "SUCESSO - Hospedagem"} << endl;\par
+130                                 {\cf19 break};\par
+131         {\cf19 case} TUHospedagem::FALHA  : cout << {\cf22 "FALHA   - Hospedagem"} << endl;\par
+132                                 {\cf19 break};\par
+133     \}\par
+134     \par
+136      TUAvalicao testeavali;\par
+138     {\cf19 switch}(testeavali.run())\{\par
+139         {\cf19 case} TUAvalicao::SUCESSO: cout << {\cf22 "SUCESSO - Avalia\'E7\'E3o"} << endl;\par
+140                                 {\cf19 break};\par
+141         {\cf19 case} TUAvalicao::FALHA  : cout << {\cf22 "FALHA   - Avalia\'E7\'E3o"} << endl;\par
+142                                 {\cf19 break};\par
+143     \}\par
+144     {\cf19 return} 0;\par
+145 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/src/dominios.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/src/dominios.cpp}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/src/dominios.cpp}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "dominios.h"}\par
+{\f2 #include <string>}\par
+{\f2 #include <list>}\par
+{\f2 #include <iostream>}\par
+{\f2 #include <cstring>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b checkLuhn} (const string &cardNo)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v checkLuhn\:dominios.cpp}
+{\xe \v dominios.cpp\:checkLuhn}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool checkLuhn (const string &  {\i cardNo})}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Fun\'E7\'E3o CheckLuhn \'E9 para fazer a verifica\'E7\'E3o do algoritmo Luhn, tamb\'E9m conhecido como algoritmo de "Modulo 10" que \'E9 muito utilizado para fazer verifica\'E7\'F5es de c\'F3digos de cart\'F5es de cr\'E9dito Ele faz a soma dos v\'E1rios n\'FAmeros dentro dos c\'F3digos para ver se eles est\'E3o corretos na soma total. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+We add two digits to handle cases that make two digits after doubling\par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 14 \{\par
+15     {\cf18 int} nDigits = cardNo.length();\par
+16 \par
+17     {\cf18 int} nSum = 0, isSecond = {\cf17 false};\par
+18     {\cf19 for} ({\cf18 int} i = nDigits - 1; i >= 0; i--) \{\par
+19 \par
+20         {\cf18 int} d = cardNo[i] - {\cf23 '0'};\par
+21 \par
+22         {\cf19 if} (isSecond == {\cf17 true})\par
+23             d = d * 2;\par
+24 \par
+28         nSum += d / 10;\par
+29         nSum += d % 10;\par
+30 \par
+31         isSecond = !isSecond;\par
+32     \}\par
+33     {\cf19 return} (nSum % 10 == 0);\par
+34 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/src/entidades.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/src/entidades.cpp}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/src/entidades.cpp}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/src/tuDominios.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/src/tuDominios.cpp}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/src/tuDominios.cpp}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "tuDominios.h"}\par
+{\f2 #include <stdexcept>}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/Rafael/Documents/final_TP1/src/TuEntidade.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Rafael/Documents/final_TP1/src/TuEntidade.cpp}
+{\xe \v C:/Users/Rafael/Documents/final_TP1/src/TuEntidade.cpp}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "TuEntidade.h"}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par 
+\pard\plain 
+{\tc \v Sum\'E1rio}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

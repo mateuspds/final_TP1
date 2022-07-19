@@ -8,9 +8,9 @@
 //Todos as classes aqui estão com valores definidos para serem testadas nos Testes Unitarios propostos.
 
 using namespace std;
-//Classe TUCidade tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUCidade tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUCidade{
 private:
     inline const static string VALOR_VALIDO= "Paris";
@@ -28,9 +28,9 @@ public:
     int run();
 };
 
-//Classe TUNota tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUNota tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUNota{
 private:
     const static int VALOR_VALIDO= 5;
@@ -48,9 +48,9 @@ public:
     int run();
 };
 
-//Classe TUNome tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUNome tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUNome{
 private:
    inline const static string VALOR_VALIDO= "Mateus Pereira";
@@ -68,9 +68,9 @@ public:
     int run();
 };
 
-//Classe TUPais tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUPais tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUPais{
 private:
    inline const static string VALOR_VALIDO= "Brasil";
@@ -88,9 +88,9 @@ public:
     int run();
 };
 
-//Classe TUIdioma tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUIdioma tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUIdioma{
 private:
    inline const static string VALOR_VALIDO= "Ingles";
@@ -108,9 +108,9 @@ public:
     int run();
 };
 
-//Classe TUData tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUData tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUData{
 private:
    inline const static string VALOR_VALIDO= "09/Jan";
@@ -128,9 +128,9 @@ public:
     int run();
 };
 
-//Classe TUDescricao tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUDescricao tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUDescricao{
 private:
    inline const static string VALOR_VALIDO= "texto elaborado perfeito";
@@ -148,9 +148,9 @@ public:
     int run();
 };
 
-//Classe TUSenha tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUSenha tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUSenha{
 private:
    inline const static string VALOR_VALIDO= "senha4#k";
@@ -169,9 +169,9 @@ public:
 };
 
 
-//Classe TUEmail tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUEmail tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUEmail{
 private:
    inline const static string VALOR_VALIDO= "mateussilva@gmail.com";
@@ -189,9 +189,9 @@ public:
     int run();
 };
 
-//Classe TUCodigo tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
-// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
-// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
+///Classe TUCodigo tem um valor valido e um valor invalido para testar o certo e errado no TESTE UNITARIO, além disso, pegamos as informações necessárias juntos com o #include "dominios.h"
+/// A classe é dividade em 2 partes, as informações Públicas que definem valores que aparecem nos testes e que chama a função para rodar o programa
+/// e as Privadas que pegam as informações necessarias e chamam as funções para fazer os testes necessarios.
 class TUCodigo{
 private:
    inline const static string VALOR_VALIDO= "79927398713";
