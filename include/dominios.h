@@ -5,9 +5,9 @@
 #include <string>
 
 //matricula: 190035145
-
+///Dominios responsaveis por identificar e coletar cada uma de suas variaveis para facilitar o desenvolvemento do código.
 using namespace std;
-///classe referente a Nome
+///Classe que identifica e armazena o Nome.
 class Nome {
     private:
         string nome;
@@ -20,7 +20,7 @@ inline string Nome::getNome()const{
     return nome;
 }
 
-///classe referente a Email
+///Classe que identifica e armazena o E-mail.
 class Email{
     private:
         string nome_email;
@@ -33,6 +33,7 @@ inline string Email::getNomeemail()const{
     return nome_email;
 }
 
+///Classe que identifica e armazena a Senha.
 class Senha{
     private:
         string nome_senha;
@@ -45,7 +46,7 @@ inline string Senha::getNome_senha()const{
     return nome_senha;
 }
 
-///classe referente ao idioma
+///Classe que identifica e armazena o Idioma.
 class Idioma{
     private:
         string lingua;
@@ -58,7 +59,7 @@ inline string Idioma::getLingua()const{
 return lingua;
 }
 
-///classe refente a data.
+///Classe que identifica e armazena a Data.
 class Data{
     private:
         string data_nome;
@@ -71,7 +72,7 @@ inline string Data::getData_nome()const{
     return data_nome;
 }
 
-///classe referente a descrição.
+///Classe que identifica e armazena a Descrição.
 class Descricao{
     private:
         string des;
@@ -84,7 +85,7 @@ inline string Descricao::getDes()const{
 return des;
 }
 
-//classe código
+//Classe que identifica e armazena o Código.
 class Codigo {
     private:
         string nomeCodigo;
@@ -97,7 +98,7 @@ class Codigo {
 inline string Codigo::getValor() const{
     return nomeCodigo;
 }
-//classe cidade
+//Classe que identifica e armazena a Cidade.
 class Cidade {
     private:
         string nomeCidade;
@@ -110,7 +111,7 @@ class Cidade {
 inline string Cidade::getValor() const{
     return nomeCidade;
 }
-//classe pais
+//Classe que identifica e armazena o Pais.
 class Pais {
     private:
         string nomePais;
@@ -124,7 +125,7 @@ inline string Pais::getValor() const{
     return nomePais;
 }
 
-//classe nota
+//Classe que identifica e armazena a Nota.
 class Nota {
     private:
         int nomeNota;
@@ -137,10 +138,5 @@ class Nota {
 inline int Nota::getValor() const{
     return nomeNota;
 }
-
-
-
-
-
 
 #endif // DOMINIOS_H
